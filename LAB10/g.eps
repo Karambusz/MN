@@ -1,0 +1,5904 @@
+%!PS-Adobe-2.0
+%%Title: g.eps
+%%Creator: gnuplot 5.2 patchlevel 2
+%%CreationDate: Tue May  5 13:04:47 2020
+%%DocumentFonts: (atend)
+%%BoundingBox: 50 50 554 770
+%%Orientation: Landscape
+%%Pages: (atend)
+%%EndComments
+%%BeginProlog
+/gnudict 256 dict def
+gnudict begin
+%
+% The following true/false flags may be edited by hand if desired.
+% The unit line width and grayscale image gamma correction may also be changed.
+%
+/Color true def
+/Blacktext false def
+/Solid false def
+/Dashlength 1 def
+/Landscape true def
+/Level1 false def
+/Level3 false def
+/Rounded false def
+/ClipToBoundingBox false def
+/SuppressPDFMark false def
+/TransparentPatterns false def
+/gnulinewidth 5.000 def
+/userlinewidth gnulinewidth def
+/Gamma 1.0 def
+/BackgroundColor {-1.000 -1.000 -1.000} def
+%
+/vshift -83 def
+/dl1 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if
+} def
+/dl2 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul add } if
+} def
+/hpt_ 31.5 def
+/vpt_ 31.5 def
+/hpt hpt_ def
+/vpt vpt_ def
+/doclip {
+  ClipToBoundingBox {
+    newpath 50 50 moveto 554 50 lineto 554 770 lineto 50 770 lineto closepath
+    clip
+  } if
+} def
+%
+% Gnuplot Prolog Version 5.1 (Oct 2015)
+%
+%/SuppressPDFMark true def
+%
+/M {moveto} bind def
+/L {lineto} bind def
+/R {rmoveto} bind def
+/V {rlineto} bind def
+/N {newpath moveto} bind def
+/Z {closepath} bind def
+/C {setrgbcolor} bind def
+/f {rlineto fill} bind def
+/g {setgray} bind def
+/Gshow {show} def   % May be redefined later in the file to support UTF-8
+/vpt2 vpt 2 mul def
+/hpt2 hpt 2 mul def
+/Lshow {currentpoint stroke M 0 vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
+  /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
+/DL {Color {setrgbcolor Solid {pop []} if 0 setdash}
+ {pop pop pop 0 setgray Solid {pop []} if 0 setdash} ifelse} def
+/BL {stroke userlinewidth 2 mul setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/AL {stroke userlinewidth 2 div setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/UL {dup gnulinewidth mul /userlinewidth exch def
+	dup 1 lt {pop 1} if 10 mul /udl exch def} def
+/PL {stroke userlinewidth setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+3.8 setmiterlimit
+% Classic Line colors (version 5.0)
+/LCw {1 1 1} def
+/LCb {0 0 0} def
+/LCa {0 0 0} def
+/LC0 {1 0 0} def
+/LC1 {0 1 0} def
+/LC2 {0 0 1} def
+/LC3 {1 0 1} def
+/LC4 {0 1 1} def
+/LC5 {1 1 0} def
+/LC6 {0 0 0} def
+/LC7 {1 0.3 0} def
+/LC8 {0.5 0.5 0.5} def
+% Default dash patterns (version 5.0)
+/LTB {BL [] LCb DL} def
+/LTw {PL [] 1 setgray} def
+/LTb {PL [] LCb DL} def
+/LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def
+/LT0 {PL [] LC0 DL} def
+/LT1 {PL [2 dl1 3 dl2] LC1 DL} def
+/LT2 {PL [1 dl1 1.5 dl2] LC2 DL} def
+/LT3 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC3 DL} def
+/LT4 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
+/LT5 {PL [4 dl1 2 dl2] LC5 DL} def
+/LT6 {PL [1.5 dl1 1.5 dl2 1.5 dl1 1.5 dl2 1.5 dl1 6 dl2] LC6 DL} def
+/LT7 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC7 DL} def
+/LT8 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC8 DL} def
+/SL {[] 0 setdash} def
+/Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def
+/Dia {stroke [] 0 setdash 2 copy vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke
+  Pnt} def
+/Pls {stroke [] 0 setdash vpt sub M 0 vpt2 V
+  currentpoint stroke M
+  hpt neg vpt neg R hpt2 0 V stroke
+ } def
+/Box {stroke [] 0 setdash 2 copy exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke
+  Pnt} def
+/Crs {stroke [] 0 setdash exch hpt sub exch vpt add M
+  hpt2 vpt2 neg V currentpoint stroke M
+  hpt2 neg 0 R hpt2 vpt2 V stroke} def
+/TriU {stroke [] 0 setdash 2 copy vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke
+  Pnt} def
+/Star {2 copy Pls Crs} def
+/BoxF {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath fill} def
+/TriUF {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath fill} def
+/TriD {stroke [] 0 setdash 2 copy vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke
+  Pnt} def
+/TriDF {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath fill} def
+/DiaF {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath fill} def
+/Pent {stroke [] 0 setdash 2 copy gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore Pnt} def
+/PentF {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath fill grestore} def
+/Circle {stroke [] 0 setdash 2 copy
+  hpt 0 360 arc stroke Pnt} def
+/CircleF {stroke [] 0 setdash hpt 0 360 arc fill} def
+/C0 {BL [] 0 setdash 2 copy moveto vpt 90 450 arc} bind def
+/C1 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C2 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C3 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C4 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C5 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc
+	2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc} bind def
+/C6 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C7 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C8 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C9 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 450 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C10 {BL [] 0 setdash 2 copy 2 copy moveto vpt 270 360 arc closepath fill
+	2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C11 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C12 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C13 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C14 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 360 arc closepath fill
+	vpt 0 360 arc} bind def
+/C15 {BL [] 0 setdash 2 copy vpt 0 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/Rec {newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+	neg 0 rlineto closepath} bind def
+/Square {dup Rec} bind def
+/Bsquare {vpt sub exch vpt sub exch vpt2 Square} bind def
+/S0 {BL [] 0 setdash 2 copy moveto 0 vpt rlineto BL Bsquare} bind def
+/S1 {BL [] 0 setdash 2 copy vpt Square fill Bsquare} bind def
+/S2 {BL [] 0 setdash 2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S3 {BL [] 0 setdash 2 copy exch vpt sub exch vpt2 vpt Rec fill Bsquare} bind def
+/S4 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S5 {BL [] 0 setdash 2 copy 2 copy vpt Square fill
+	exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S6 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S7 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S8 {BL [] 0 setdash 2 copy vpt sub vpt Square fill Bsquare} bind def
+/S9 {BL [] 0 setdash 2 copy vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S10 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt Square fill
+	Bsquare} bind def
+/S11 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt2 vpt Rec fill
+	Bsquare} bind def
+/S12 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill Bsquare} bind def
+/S13 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S14 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S15 {BL [] 0 setdash 2 copy Bsquare fill Bsquare} bind def
+/D0 {gsave translate 45 rotate 0 0 S0 stroke grestore} bind def
+/D1 {gsave translate 45 rotate 0 0 S1 stroke grestore} bind def
+/D2 {gsave translate 45 rotate 0 0 S2 stroke grestore} bind def
+/D3 {gsave translate 45 rotate 0 0 S3 stroke grestore} bind def
+/D4 {gsave translate 45 rotate 0 0 S4 stroke grestore} bind def
+/D5 {gsave translate 45 rotate 0 0 S5 stroke grestore} bind def
+/D6 {gsave translate 45 rotate 0 0 S6 stroke grestore} bind def
+/D7 {gsave translate 45 rotate 0 0 S7 stroke grestore} bind def
+/D8 {gsave translate 45 rotate 0 0 S8 stroke grestore} bind def
+/D9 {gsave translate 45 rotate 0 0 S9 stroke grestore} bind def
+/D10 {gsave translate 45 rotate 0 0 S10 stroke grestore} bind def
+/D11 {gsave translate 45 rotate 0 0 S11 stroke grestore} bind def
+/D12 {gsave translate 45 rotate 0 0 S12 stroke grestore} bind def
+/D13 {gsave translate 45 rotate 0 0 S13 stroke grestore} bind def
+/D14 {gsave translate 45 rotate 0 0 S14 stroke grestore} bind def
+/D15 {gsave translate 45 rotate 0 0 S15 stroke grestore} bind def
+/DiaE {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke} def
+/BoxE {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke} def
+/TriUE {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke} def
+/TriDE {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke} def
+/PentE {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore} def
+/CircE {stroke [] 0 setdash 
+  hpt 0 360 arc stroke} def
+/Opaque {gsave closepath 1 setgray fill grestore 0 setgray closepath} def
+/DiaW {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V Opaque stroke} def
+/BoxW {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V Opaque stroke} def
+/TriUW {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V Opaque stroke} def
+/TriDW {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V Opaque stroke} def
+/PentW {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  Opaque stroke grestore} def
+/CircW {stroke [] 0 setdash 
+  hpt 0 360 arc Opaque stroke} def
+/BoxFill {gsave Rec 1 setgray fill grestore} def
+/Density {
+  /Fillden exch def
+  currentrgbcolor
+  /ColB exch def /ColG exch def /ColR exch def
+  /ColR ColR Fillden mul Fillden sub 1 add def
+  /ColG ColG Fillden mul Fillden sub 1 add def
+  /ColB ColB Fillden mul Fillden sub 1 add def
+  ColR ColG ColB setrgbcolor} def
+/BoxColFill {gsave Rec PolyFill} def
+/PolyFill {gsave Density fill grestore grestore} def
+/h {rlineto rlineto rlineto gsave closepath fill grestore} bind def
+%
+% PostScript Level 1 Pattern Fill routine for rectangles
+% Usage: x y w h s a XX PatternFill
+%	x,y = lower left corner of box to be filled
+%	w,h = width and height of box
+%	  a = angle in degrees between lines and x-axis
+%	 XX = 0/1 for no/yes cross-hatch
+%
+/PatternFill {gsave /PFa [ 9 2 roll ] def
+  PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
+  PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+  clip
+  currentlinewidth 0.5 mul setlinewidth
+  /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
+  0 0 M PFa 5 get rotate PFs -2 div dup translate
+  0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 M 0 PFs V} for
+  0 PFa 6 get ne {
+	0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 2 1 roll M PFs 0 V} for
+ } if
+  stroke grestore} def
+%
+/languagelevel where
+ {pop languagelevel} {1} ifelse
+dup 2 lt
+	{/InterpretLevel1 true def
+	 /InterpretLevel3 false def}
+	{/InterpretLevel1 Level1 def
+	 2 gt
+	    {/InterpretLevel3 Level3 def}
+	    {/InterpretLevel3 false def}
+	 ifelse }
+ ifelse
+%
+% PostScript level 2 pattern fill definitions
+%
+/Level2PatternFill {
+/Tile8x8 {/PaintType 2 /PatternType 1 /TilingType 1 /BBox [0 0 8 8] /XStep 8 /YStep 8}
+	bind def
+/KeepColor {currentrgbcolor [/Pattern /DeviceRGB] setcolorspace} bind def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} 
+>> matrix makepattern
+/Pat1 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke
+	0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}
+>> matrix makepattern
+/Pat2 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 0 8 L
+	8 8 L 8 0 L 0 0 L fill}
+>> matrix makepattern
+/Pat3 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 8 M 8 -4 L
+	0 12 M 12 0 L stroke}
+>> matrix makepattern
+/Pat4 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 0 M 8 12 L
+	0 -4 M 12 8 L stroke}
+>> matrix makepattern
+/Pat5 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 8 M 4 -4 L
+	0 12 M 8 -4 L 4 12 M 10 0 L stroke}
+>> matrix makepattern
+/Pat6 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 0 M 4 12 L
+	0 -4 M 8 12 L 4 -4 M 10 8 L stroke}
+>> matrix makepattern
+/Pat7 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 8 -2 M -4 4 L
+	12 0 M -4 8 L 12 4 M 0 10 L stroke}
+>> matrix makepattern
+/Pat8 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 -2 M 12 4 L
+	-4 0 M 12 8 L -4 4 M 8 10 L stroke}
+>> matrix makepattern
+/Pat9 exch def
+/Pattern1 {PatternBgnd KeepColor Pat1 setpattern} bind def
+/Pattern2 {PatternBgnd KeepColor Pat2 setpattern} bind def
+/Pattern3 {PatternBgnd KeepColor Pat3 setpattern} bind def
+/Pattern4 {PatternBgnd KeepColor Landscape {Pat5} {Pat4} ifelse setpattern} bind def
+/Pattern5 {PatternBgnd KeepColor Landscape {Pat4} {Pat5} ifelse setpattern} bind def
+/Pattern6 {PatternBgnd KeepColor Landscape {Pat9} {Pat6} ifelse setpattern} bind def
+/Pattern7 {PatternBgnd KeepColor Landscape {Pat8} {Pat7} ifelse setpattern} bind def
+} def
+%
+%
+%End of PostScript Level 2 code
+%
+/PatternBgnd {
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+} def
+%
+% Substitute for Level 2 pattern fill codes with
+% grayscale if Level 2 support is not selected.
+%
+/Level1PatternFill {
+/Pattern1 {0.250 Density} bind def
+/Pattern2 {0.500 Density} bind def
+/Pattern3 {0.750 Density} bind def
+/Pattern4 {0.125 Density} bind def
+/Pattern5 {0.375 Density} bind def
+/Pattern6 {0.625 Density} bind def
+/Pattern7 {0.875 Density} bind def
+} def
+%
+% Now test for support of Level 2 code
+%
+Level1 {Level1PatternFill} {Level2PatternFill} ifelse
+%
+/Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
+dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
+currentdict end definefont pop
+%
+/Metrics {ExtendTextBox Gswidth} def
+/Lwidth {currentpoint stroke M 0 vshift R Metrics} def
+/Rwidth {currentpoint stroke M dup stringwidth pop neg vshift R Metrics} def
+/Cwidth {currentpoint stroke M dup stringwidth pop -2 div vshift R Metrics} def
+/GLwidth {currentpoint stroke M 0 vshift R {ExtendTextBox} forall} def
+/GRwidth {currentpoint stroke M dup Gwidth vshift R {ExtendTextBox} forall} def
+/GCwidth {currentpoint stroke M dup Gwidth 2 div vshift R {ExtendTextBox} forall} def
+/GLwidth2 {0 Gwidth AddGlyphWidth} def
+/GRwidth2 {Gwidth -1 mul 0 AddGlyphWidth} def
+/GCwidth2 {Gwidth 2 div dup -1 mul AddGlyphWidth} def
+/AddGlyphWidth { dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+                 dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse } def
+/MFshow {
+   { dup 5 get 3 ge
+     { 5 get 3 eq {gsave} {grestore} ifelse }
+     {dup dup 0 get findfont exch 1 get scalefont setfont
+     [ currentpoint ] exch dup 2 get 0 exch R dup 5 get 2 ne {dup dup 6
+     get exch 4 get {textshow} {Metrics pop 0 R} ifelse }if dup 5 get 0 eq
+     {dup 3 get {2 get neg 0 exch R pop} {pop aload pop M} ifelse} {dup 5
+     get 1 eq {dup 2 get exch dup 3 get exch 6 get Gswidth pop -2 div
+     dup 0 R} {dup 6 get Gswidth pop -2 div 0 R 6 get
+     textshow 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop
+     pop aload pop M} ifelse }ifelse }ifelse }
+     ifelse }
+   forall} def
+/Gswidth {dup type /stringtype eq {stringwidth} {pop (n) stringwidth} ifelse} def
+/MFwidth {0 exch { dup 5 get 3 ge { 5 get 3 eq { 0 } { pop } ifelse }
+ {dup 3 get{dup dup 0 get findfont exch 1 get scalefont setfont
+     6 get Gswidth pop add} {pop} ifelse} ifelse} forall} def
+/MLshow { currentpoint stroke M
+  0 exch R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MRshow { currentpoint stroke M
+  exch dup MFwidth neg 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MCshow { currentpoint stroke M
+  exch dup MFwidth -2 div 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/XYsave    { [( ) 1 2 true false 3 ()] } bind def
+/XYrestore { [( ) 1 2 true false 4 ()] } bind def
+Level1 SuppressPDFMark or 
+{} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (g.eps)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 5.2 patchlevel 2)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Tue May  5 13:04:47 2020)
+  /DOCINFO pdfmark
+end
+} ifelse
+%
+% Support for boxed text - Ethan A Merritt Sep 2016
+%
+/InitTextBox { userdict /TBy2 3 -1 roll put userdict /TBx2 3 -1 roll put
+           userdict /TBy1 3 -1 roll put userdict /TBx1 3 -1 roll put
+	   /Boxing true def } def
+/ExtendTextBox { dup type /stringtype eq
+    { Boxing { gsave dup false charpath pathbbox
+      dup TBy2 gt {userdict /TBy2 3 -1 roll put} {pop} ifelse
+      dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+      dup TBy1 lt {userdict /TBy1 3 -1 roll put} {pop} ifelse
+      dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse
+      grestore } if }
+    {} ifelse} def
+/PopTextBox { newpath TBx1 TBxmargin sub TBy1 TBymargin sub M
+               TBx1 TBxmargin sub TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy1 TBymargin sub L closepath } def
+/DrawTextBox { PopTextBox stroke /Boxing false def} def
+/FillTextBox { gsave PopTextBox fill grestore /Boxing false def} def
+0 0 0 0 InitTextBox
+/TBxmargin 20 def
+/TBymargin 20 def
+/Boxing false def
+/textshow { ExtendTextBox Gshow } def
+%
+end
+%%EndProlog
+%%Page: 1 1
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.100 0.100 scale
+90 rotate
+0 -5040 translate
+0 setgray
+newpath
+(Helvetica) findfont 250 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {gsave BackgroundColor C clippath fill grestore} if
+gsave % colour palette begin
+/maxcolors 0 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor false def
+/cF33 {2 mul 0.5 sub abs} bind def	% |2*x - 0.5|
+/cF13 {180 mul sin} bind def	% sin(180x)
+/cF10 {90 mul cos} bind def	% cos(90x)
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF33 Constrain exch dup cF13 Constrain exch cF10 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UL
+LTb
+LCb setrgbcolor
+1467 863 M
+-63 0 V
+3989 0 R
+63 0 V
+stroke
+1254 863 M
+[ [(Helvetica) 250.0 0.0 true true 0 (-10)]
+] -83.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1467 1845 M
+-63 0 V
+3989 0 R
+63 0 V
+stroke
+1254 1845 M
+[ [(Helvetica) 250.0 0.0 true true 0 (-5)]
+] -83.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1467 2826 M
+-63 0 V
+3989 0 R
+63 0 V
+stroke
+1254 2826 M
+[ [(Helvetica) 250.0 0.0 true true 0 ( 0)]
+] -83.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1467 3808 M
+-63 0 V
+3989 0 R
+63 0 V
+stroke
+1254 3808 M
+[ [(Helvetica) 250.0 0.0 true true 0 ( 5)]
+] -83.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1467 4789 M
+-63 0 V
+3989 0 R
+63 0 V
+stroke
+1254 4789 M
+[ [(Helvetica) 250.0 0.0 true true 0 ( 10)]
+] -83.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1467 863 M
+0 -63 V
+0 3989 R
+0 63 V
+stroke
+1467 550 M
+[ [(Helvetica) 250.0 0.0 true true 0 (-10)]
+] -83.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+2449 863 M
+0 -63 V
+0 3989 R
+0 63 V
+stroke
+2449 550 M
+[ [(Helvetica) 250.0 0.0 true true 0 (-5)]
+] -83.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+3430 863 M
+0 -63 V
+0 3989 R
+0 63 V
+stroke
+3430 550 M
+[ [(Helvetica) 250.0 0.0 true true 0 ( 0)]
+] -83.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+4412 863 M
+0 -63 V
+0 3989 R
+0 63 V
+stroke
+4412 550 M
+[ [(Helvetica) 250.0 0.0 true true 0 ( 5)]
+] -83.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+5393 863 M
+0 -63 V
+0 3989 R
+0 63 V
+stroke
+5393 550 M
+[ [(Helvetica) 250.0 0.0 true true 0 ( 10)]
+] -83.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+1467 4789 N
+0 -3926 V
+3926 0 V
+0 3926 V
+-3926 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+554 2826 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Helvetica) 250.0 0.0 true true 0 (y)]
+] -83.3 MCshow
+grestore
+LTb
+LCb setrgbcolor
+3430 175 M
+[ [(Helvetica) 250.0 0.0 true true 0 (x)]
+] -83.3 MCshow
+LTb
+% Begin plot #1
+1.000 UL
+LTb
+0.58 0.00 0.83 C /Helvetica findfont 250 scalefont setfont
+/vshift -83 def
+%%%%BeginImage
+gsave 1467 4789 N 1467 863 L 5393 863 L 5393 4789 L Z clip
+InterpretLevel1 {
+  %% Construct a box instead of image
+  LTb
+  1447 4797 M
+  3966 0 V
+  0 -3942 V
+  -3966 0 V
+  1447 4797 L
+  40 -110 R
+  (PS level 2 image) Lshow
+  % Read data but ignore it
+  /imagebuf 31652 string def
+  currentfile imagebuf readstring
+} {
+gsave
+1447 4797 translate
+3966 -3942 scale
+%%%%BeginPalette
+[ /Indexed
+  /DeviceRGB 255
+  <
+   8000ff 7e03ff 7c06ff 7a09ff 780dff 7610ff 7413ff 7216ff
+   7019ff 6e1cff 6c1fff 6a22fe 6826fe 6629fe 642cfe 622ffe
+   6032fe 5e35fe 5c38fd 5a3bfd 583efd 5641fd 5444fd 5247fc
+   504afc 4e4dfc 4c50fc 4a53fb 4856fb 4659fb 445cfb 425ffa
+   4062fa 3e65fa 3c68f9 396bf9 386df9 3670f8 3473f8 3176f8
+   3079f7 2e7bf7 2c7ef7 2981f6 2884f6 2686f5 2489f5 218cf4
+   208ef4 1e91f3 1c93f3 1996f3 1898f2 169bf2 149df1 11a0f1
+   10a2f0 0ea5ef 0ca7ef 09a9ee 08acee 06aeed 04b0ed 01b3ec
+   00b5eb 02b7eb 04b9ea 07bbea 08bee9 0ac0e8 0dc2e8 0fc4e7
+   10c6e6 12c8e6 14cae5 17cbe4 18cde4 1acfe3 1dd1e2 1fd3e1
+   21d5e1 22d6e0 24d8df 27dade 29dbde 2adddd 2ddedc 2fe0db
+   31e1da 32e3da 34e4d9 37e6d8 39e7d7 3ae8d6 3dead5 3febd5
+   41ecd4 42edd3 44eed2 47efd1 49f1d0 4af2cf 4df3ce 4ff3cd
+   51f4cc 52f5cb 54f6cb 57f7ca 59f8c9 5af8c8 5df9c7 5ffac6
+   61fac5 62fbc4 64fbc3 67fcc2 69fcc1 6afdc0 6dfdbf 6ffebe
+   71febc 72febb 74feba 77ffb9 79ffb8 7affb7 7dffb6 7fffb5
+   81ffb4 83ffb3 84ffb2 86ffb0 88ffaf 8bfeae 8dfead 8ffeac
+   91feab 93fda9 94fda8 96fca7 99fca6 9bfba5 9dfba4 9ffaa2
+   a1faa1 a3f9a0 a4f89f a6f89d a8f79c abf69b adf59a aff498
+   b1f397 b3f396 b4f295 b6f193 b9ef92 bbee91 bded8f bfec8e
+   c1eb8d c3ea8c c4e88a c6e789 c8e688 cbe486 cde385 cfe184
+   d1e082 d3de81 d4dd80 d6db7e d9da7d dbd87b ddd67a dfd579
+   e1d377 e3d176 e4cf74 e6cd73 e8cb72 ebca70 edc86f efc66d
+   f1c46c f3c26b f4c069 f6be68 f9bb66 fbb965 fdb763 ffb562
+   ffb360 ffb05f ffae5e ffac5c ffa95b ffa759 ffa558 ffa256
+   ffa055 ff9d53 ff9b52 ff9850 ff964f ff934d ff914c ff8e4a
+   ff8c49 ff8947 ff8646 ff8444 ff8143 ff7e41 ff7b40 ff793e
+   ff763d ff733b ff703a ff6d38 ff6b37 ff6835 ff6533 ff6232
+   ff5f30 ff5c2f ff592d ff562c ff532a ff5029 ff4d27 ff4a26
+   ff4724 ff4422 ff4121 ff3e1f ff3b1e ff381c ff351b ff3219
+   ff2f18 ff2c16 ff2914 ff2613 ff2211 ff1f10 ff1c0e ff190d
+   ff160b ff1309 ff1008 ff0d06 ff0905 ff0603 ff0302 ff0000
+  >
+] setcolorspace
+%%%%EndPalette
+<<
+  /ImageType 1
+  /Width 100
+  /Height 250
+  /BitsPerComponent 8
+  /ImageMatrix [ 100 0 0 250 0 0 ]
+  /Decode [ 0 255 ]
+  /DataSource currentfile /ASCII85Decode filter
+  /MultipleDataSources false
+  /Interpolate false
+>>
+image
+} ifelse
+<Dudl:JFMU8Ou?@779L05sRY!5!;%k4?GVc3]]8]3B9)[3B9)[3]];`4$,Pe4[)%o5X@_(6q'R884c
+EI9hnM^;cHe"=^,0=@:Nk]BkqR(EccJMH[^KtKntYIOHYuu<Duak:/+DS8Ou?@6pj:-5sRXu4Ztni4
+$,Ja3B9)[3B/uX3&ioY3B9,]3]fDc4?Ykl5<qM$6UX@47n?3E9MJ;Z;H$Rs=B\s9?t*YYBPM@$E-$/
+HH@13oKSPGDO-5cq<)ZXj:/+AR8Ou<>6pj:,5X.Is4Zkhg4$#D_3B9&Y3&ilW3&ilW3&ruZ3]]>a4?
+Pbj5!M:u6:4.07Rp$B92//W;,^Fp='8a5?X[GUB5)-uDfTrCH$b!jK8,2?NffQm<)QRh:/";Q84Q-<
+6pj:,5X.Fq4Zkef3]]8]3&ilW2`EZS2`EZT3&ilX3B9,]4$5Vg5!M7s5sdq,77Tm?8k_rT:f:4l='/
+X2?=75QAnYpqDK0`?G^=dfJq\u;NKB?i<)QRh:/";P84Q-;6UF((5<h=p4?GVc3]T2[3&iiU2`EZS2
+`EZS2`E]U3&ru[3]fGd4[)(q5X@_)77Kd<8kViQ:Jk"h<``F.?!h#MAS5^mD/aN;GBnRbJV8c7N/s*
+c<)QOg9h\/N84Q*:6UF((5<_4m4?GSb3B9&Y2`EZS2E!HO2E!HO2E*QR3&ioY3]]>b4?Ykm5X@_(6q
+'R88P2WM:/Fed<E<4*>[CfIA7fLiCi=<7G'J@^J:`K2MiEg^;c6Ff9h\/N7n,p86UF((5<_4m4$,J`
+3B/uW2`EWQ2E!HO2)[?N2E!HP2`E]U3BB2_4?Pbj5<qM$6UX@584cHJ:/=_b<*!('>?tTE@qB:eCMn
+*3Fa&.ZIt<9.MN!UZ;c-@d9hS)M7n,p76:!k$5!;"j4$#D_3&iiU2E!HO2)R6K2)R6K2)[?N2E*QS3
+&ru[4$5Vg5!M:u6:4127n?6F9hnM^;cQk#>$PBA@Us(aC2Im/FEVqVIXm'*Ll7:U;c-@d9hS)L7n,m
+66:!k$5!;"i4$#A]3&`cS2E!EM2)R3I1c.$H2)R6K2E!KQ3&ioY3]fGe4[)(q5sn%/7S$*C9MJ;Z;H
+-Xt=^,0=@:Nk]Bl%[+F*2\QI=Hj&LPh(Q;c-=c9M7rJ7n#g56:!k$5!;"i3]T2[2`EWQ2)R6K1c.$G
+1c.$G1c.'I2)[?N2`E]V3BB5a4[)(q5sdq,77Tm@92&)W;,^Iq=B\s9?t*YYBPVI'EccJMI"$X!L5C
+kM;Gg4b9M7rJ7R]^45sRXu4Zkef3]T/Z2`<QO2)R3I1c.!E1G^gC1c.$G2)R6L2E*QS3BB2_4?Ykm5
+X@_(77Kd=8k_rT:f:7m='8a5?X[GUB527#EH?8IH@:<qKntYI;Gg4a9M.lH7R][25sRXu4Zkee3B9&
+X2`<NN2)I-H1G^gC1G^gC1G^gD1c.'I2E!KQ3&s#\4$5Yi5<qM%6q'U:8P;`P:Jk%j<`iO1?=75QAn
+c$tE,p&EH$k*mKSPGD;G^.`9M.lH7RTU15sRXt4?P\d3B/rV2E!EM1c.!E1G^dA1,:U?1,C^B1GgpG
+2)[?O2`NfY4$,Pf5!VD#6UXC684lNL:Jaqg<EE=-?!h#MAS>gpDfKiAG^FmiK8,5@;G^.`91h`F7RT
+U15X.Fq4?GSa3B/rU2Dm?K1c$pD1,:U?1,:U?1,:U?1G^gD1c7-K2`E]V3]fGe5!M:u6:=7384cHJ:
+/=_c<E<4*>[CfIA7oUlDK'W=GC"[eJq\u;;G^+_91h`F779L/5X.Fq4?GSa3&`cS2)R3I1G^dA1,:R
+=0ekC;0ekF=1,C^B1c.'I2E*TT3BB5a4[)(q6:4.07n?6F9i"S`<*!('>?tTEA7fLiD/XE9G'SF`JV
+8c7;G^+_91_ZD779I.5X.Fq4?GSa3&``R2)I-G1GU^@0ekC;0ekC;0ekC;1,:U@1GgpG2)[BQ3B9,^
+4?Ykn5sdq-7S$*D9MSA\;cQn$>$PBA@qB:eCi435Fa/4\J:`K2;,C"]91_ZD770C-5X%=n4$#A]3&`
+`Q2)I*F1,:U>0ek@90JG170JG490ekF=1G^jE2)[?O3&s#]4?Ykm5X@b*77Tm@92/2Y;H-\!=^,0>@
+Us(aCMe!1FE`"XIt<9.;,9q\91_WC770C-5<_4m4$#A]2`<QO1c.!D1,:R=0JG170JG170JG170JP:
+;1,:XB1c70L2`NfY4$5Yi5=%V'77Kd=8k_uU;,^Ir=^,0=@:Nk]C2@d-F*;eTIXm'*;,9q\8kDNB6p
+j:+5<_4m4$#A]2`<NN1c$pC1,1L;0JG160/"t30/"t40JG490etL?1c.'J2E*TU3]fGe5<qM$6q'U:
+8kVlS:f:7n=B\s9?t*YYBkqR)EclSPI=Hj&;,9n[8kDNB6pj7*5<_4l3]T/Y2`<NM1G^dA0ek@90J>
+(40/"t30/"t30/,(60ekF=1GgpG2E*TT3BB8c5!M;!6UXC68P2ZO:Jk%j='8a5?X[GUBPM@%EHHALI
+"$X";,9n[8k;H@6pj7*5<V+j3]T/Y2Dm?K1GU^?0eb:80/"t2/hSb//hSb00/"t40JP:;1,CaD2)[B
+Q3BB5a4[)+s6:=7484lNL:Jaqg<`iO1?=75RB5).!E-$/HH[UEs;,9nZ8k;H@6pa1)5!;"i3]T/Y2D
+m<J1GU^?0JG160.nk0/hSb//hSb//h\k20JG491,:XB2)R9N3&s#]4?btp5sn%07nH<H:/Fed<EE=-
+?!h#NAnYssDfTrDH@13o;,9nZ8k;H@6pa1(5!;"i3]K&W2Dm<I1,:R=0JG.5/hSb//M/P+/M/P,/hS
+b00/,(70etL?1c70L2`NfZ4?Ykm5sdq-7S$-E9i"S`<*!+)>[CfJAS5aoDK0`@H$b!k:eseY8k;E?6
+UF('5!;"h3B/rU2)I-G1,1L;0J>(3/hS_-/M/P+/M/P+/M8Y.0/"t40ekF>1GgsI2`NfY4$5Yj5X@b
+*7Rp$B9MSD];cQn%>?tWGA7fOkD/aN<G^=dg:eseY8Ou<>6UF%&5!1nf3B/rU2)I*F1,1I:0/"q1/h
+JY,/M&G(/1`>(/M/P,/hSe10JP:;1G^jF2E*TU3]fJg5=%V'77Kg?92/2Z;cHe">$YKD@qB=gCi=<8
+GBnRc:ej_X8Ou<>6UF%&5!1nf3B/rU2)I*E0ek@90.nk0/M/P*/1`>'/1`>'/1`A)/M8Y/0/,+81,C
+aE2)[BR3]fGe5<qM%6q0[<92&)W;H-\!>$PBA@Us+cCi435G'J@_:ej_X8Ou<=6U<t%4Zkee3B&iR1
+c.!D0eb:70.nk//M&G(/1`;%.k<,$/1`>(/M/S-0/#"60etOA2)[BQ3BB5b5!M>"6UaL98kVlS;,^I
+r=^,0=@:Wt`CMe$2Fa&.[:ej\W8Ol6<6U<t$4Zked3&``Q1c$mB0eb76/hS_-/1`>'.k<,#.k<,#.k
+E5&/1iG+/h\k30etL?1c70M3&s&_4[)+s6UXC68P;`P:f:7n=B\s9?t3b\C2@g.FEVqW:ej\W8Ol6<
+6U<t$4Zkbc3&``Q1c$mA0eb76/hJY+/1`;%.k<,#.Olr!.k<,$/1`A)/hSe20JP==1c70M3&s#]4?b
+tp6:41384lQM:Jk%j='8a5?XdPXBkqU*F*2_S:ej\W8Ol6<6:!k#4Zb\b3&``Q1c$mA0JG.4/hJY+/
+1W5$.Olnt.Olnt.P!#".kE5'/M8Y/0JG4:1GgsI2`NfY4?Ykn5sn%07nH?J:/Fhf<`iO1?X[GUBPMC
+&EccMO:ej\V8Ol3;6:!h"4Zb\b3&`]O1G^d@0J>(3/M/M).k<,".Olnt.Olnt.Olnu.k</%/M/S-0/
+,+81,CaE2E*WW4$5\k5XIh,7n?6G:/=_c<EE=.?=75RB5)1"EH?;K:ej\V8Ol3;6:!h"4?GSa2`<NM
+1GU[>0J>%2/M&G'.k<)!.Olkr.4H\p.4Qes.P!##/1iG+0/#"61,CaE2E*TU3]oPh5X@b*7S$*D9i"
+Vb<**4,?!h#NAnYssE,p)G:ej\V8Ol3;6:!h"4?GS`2`<NM1GU[=0/"q0/M&G'.k3"u.4H\p.4H\p.
+4H\q.Olr!/1`A)/h\k30etOA2)[BQ3]fGf5=%V(77TpA9MSD^<*!+)>[CfJAS>gpDfTrD:ej\V84Q*
+:69mb!4?GS`2`<NM1GU[=0.nk//1`;%.Olns.4H\o-n$Jl.4H\p.4Qet.kE5'/M8\10ekF>1c73O3B
+B8c5!VD$6q0^>92/2Z;cQn%>?tWGA7oUmDK0`@:ej\V84Q*969mau4?GP_2`<NM1GU[=0.nh./1`;$
+.Olkr.4?Sm-n$Jl-n$Jm.4H_r.k</%/M8Y/0JP==1c70M3'',`5!M>"6q'U;92&)W;H-\!>$YKD@qK
+CiD/aN<:ej\V84Q*969mau4?GP_2`<KK1,1I:0.nh-/1W5#.Oceq-n$Jl-n$Jl-n$Jl-n-Sp.P!##/
+1iJ-0/,+91GgsJ3&s#^4[)+s6UaI88k_rT;,^Ir>$PBA@V'1eCi=<8:ej\V84Q*969mau4?>J^2`3E
+J1,1I90.nh-/1W2".4H\o-n$Gj-RU8h-RU;j-n$Mn.Olr!/1`A*0/,+91GgsI2`Ni[4?btq6:=:58P
+;cR:f:7o=^,0=@Us(bCMn*4:ej\V84Q*969mau4?>J^2Dm<I1,1I9/hJY+.k<)!.4HYn-mpAi-RU8h
+-RU8h-n$Jm.4Qet.kE8(/h\n51,CaE2E3]X4?Yno6:41384lQN:f:7n=B\s9@:Nn_C2Ip1:ej\V84H
+$869m^t4?>J^2Dm<I1,1I9/hJV*.k3"t.4?Sm-RU8h-71&d-7:/g-RU;j.4H_r.k</&/h\k30etRC2
+E*TV4$5\k5sdt/84cHK:Jk%j='8a6?t*\[C2@g.:ej\V84H$85sRUs4$#A\2Dm<I1,1I9/hJV).k3"
+t-n$Jk-RU5f-71&d-71&d-RU8i-n-Sp.P!&$/M8\10etOA2)[ES3]oPi5XIh,7nH<H:/Fhf<`iR3?X
+[JWBkqU*:ej\V84H$85sRUs4$#A\2Dm<I0eb76/hJV).k2ts-n$Gj-RL/e-71&d-71&d-7:/g-n$Mn
+.Olr"/M/S.0JP==2)[BQ3]fGf5=%Y)7S$-E9i"Vb<ENF0?=@>TBPMC&:ej\V84H$85sRUs4$#>[2Dm
+<H0eb75/M/M(.Olkq-mpAi-71&d,pai`,paia-71&e-R^Al.4Qhu/1iJ-0JP==1c70N3BB8c5<qP'7
+7TpB9i"Vb<EE=-?!q,PB5)1#:ej\V84H$85sRUs4$#>[2Dm9G0eb75/M&G'.Ocep-mpAh-71#b,pai
+`,pai`,pjrc-RU;j.4H_s/1`A*0/,+91Gq'L3'',a5!VD$77Kg?9MSD^<*!+)?!h#NAnc$u:ej\V84
+H$85sRUs4$#>[2Dd3F0eb75/M&D&.Ocep-RU5f-7'ra,pai`,pai`,palb-7:/h-n-Vq.kE8)0/,+9
+1GgsI3&s&_4[25!6q0[<92/2Z;cQn&>[CfJAS>gq:ej\V84H$85sRUs4$#>[2Dd3F0eb75/M&D%.Oc
+bo-RU5f,pai`,U=W\,U=W\,pai`-71)f-n$Mo.k</&/h\n51,CdG2`Ni[4[)+t6UaL:8k_uV;H-_#>
+?tWGA7oUm:ej\V84H$85sRUr4$#>[2)I*E0eb75/M&D%.4HYm-RL/e,pai_,U=W\,U=W\,U=Z^,pjr
+d-R^Dm.P!&%/M8\21,CaE2`NfZ4?btq6UXC78k_uV;H-\!>$PECA7fOk:ej\V84H$85sRUr4#o8Z2)
+I*E0eb43/M&D%.4HYm-RL/d,paf^,U=W[,9nHZ,U=W],palb-R^Al.Olr"/M8\10etOB2E*WW4?Yno
+6:=748P;cR;,^Ir=^59@@qB=g:ej\V84H$85sRUr4#o8Z2)I*E0J>%1/1W5#.4?Sl-71#b,pX`],9n
+EX,9nEX,:"N[,paia-7:2i.4Qi!/1iJ-0etOA2)dKT4$5\l5sn(184lQN:f:7n=^,0>@Us+c:ej\V8
+4H$85sRUr4#o8Z2)I*E0J>%1/1W2".4?Pk-71#b,U=W[,9nEX,9nEX,9nHZ,UF`_-7:/h.4H_s/1iJ
+-0JP==2)[BR3]oPi5sdt/84cHK:Jk(l=B\s:@:Wta:ej\V84H$85sRUr4#o8Z2)I*D0J>%1/1W2!.4
+?Pk-7'ra,U=TZ,9nEX+sJ6V,9nEX,U=Z^-71)f-n-Vr.kE8)0/54<1c73O3]fJg5XIh,7nH?J:Jk%j
+='8d7?t3b]:ej\V84Q*95sRUr4#o8Y2)I*D0J>%1/1W2!.4?Pj-7'r`,U4NY,9e<U+sJ3T+sS<W,:"
+N\,pjrd-n$Mo.kE8)0/,+91c70N3BK>e5=%Y)7S$-F:/Fhf<`rX4?t*YZ:ej\V84Q*95sRUr4#o8Y2
+)I'C0J>%1/1W2!-n$Gi-7'r`,U4NY+sJ3T+sJ3T+sJ3U,9nHZ,palc-R^Dn.P!&%/h\q71Gh!K3'',
+a5<qP'7Rp$C9i"Vb<`iO1?X[JW;,0eW8Ol3:5sRUr4#o8Y2)I'C0J>%1/1W2!-mpAh,paf^,9nEW+s
+J3T+sJ3T+sJ3T,9nEY,UF``-RU;k.P!&%/h\n51,LjH3&s&_5!VD$77TpA9MSG`<EE=.?=78S;,9nZ
+8Ol3:5sRUr4#o8Y2)I'C0J>%1/1W2!-mpAh,paf^,9nBV+sJ0R+X&!P+X/*S+sS<W,U=Z_-7:2j.4Q
+i!/M8_31,CaF2`Wo]4[25!6q0^>9MSD^<*!.+?!q,P;,9nZ8Ol3:5sRUr4#o8Y2)I'C0J>%1/1W2!-
+mp>g,pX`\,9nBV+sA*Q+X&!P+X&!Q+sJ6V,U=Z^-7:/h.4Qi!/M8\10f(XD2`Ni[4[)+t6q'U;92/2
+Z;c["(>[LoM;,9nZ8Ol3:5sRUr4#o8Y2)I'C0J>%0.k3"t-mp>g,pX`\,9e<U+X&!P+X&!P+X&!P+s
+J3U,:"N\,pjuf-n-Vr/1iJ.0etOB2E3]Y4?btq6UaL98k_uW;cQn%>[CfJ;,9nZ8Ol3:5sRUr4#o8Y
+2)I'C0J>"/.k2ts-mp>f,pX`\,9e<T+X&!P+<VdL+<_mO+X/*S,9nHZ,pjrd-n-Vr/1iJ-0JYF@2E*
+TV4?Yno6:=:68k_uV;H-\">?tWG;,9nZ8Ol3:69m^s4#o8Y2)I'C0J>"/.k2tr-mp>f,pX][+sJ3S+
+X%sN+<VdL+<VdM+X&$R+sS<X,palc-n$Mo.kE8*0JP=>2)[ES4$>bm6:4138P;cR;,^Lt>$PEC;,9n
+Z8Ol3:69m^s4#o8Y2)I'C0J4q..k2tr-RU5e,U=TZ+sJ0R+WqmM+<VdL+<VdL+X&!Q+sJ6W,UFca-R
+^Dn.kE8)0/,.;1c@9Q3]oSj5sn(184lQN;,^Ir=^59A;,9nZ8Ol3:69m^t4#o8Y2)I'C0J4q..k2tr
+-RU5e,U=TY+sJ0R+<VdL+<VaK+<VdL+<_mO+sJ6V,U=Z_-R^Al.P!&&0/,+:1c73O3]fJh5XIk.84l
+QN:f:7n=^,0>;GU"[8Ol3;69m^t4#o8Y2)I'C0J4q..k2tr-RL/d,U=TY+sA*Q+<VdL+!2RH+!2RI+
+<VgN+X/*T,:"Q]-7:2j.P!&%/h\q71Gq'M3BK>e5XIh,7nH?J:Jk%k=B]!;;G^+]8Ol6<69m^t4#o8
+Y2)I'C0J4q..k2tr-RL,c,U4NX+sA*P+<VaJ+!2RH+!2RH+<VdM+X&$R,:"N\-7:2i.4Qi"/h\n51G
+h!K3BB8c5=%Y*7S$-F:/Oqi='Aj8;G^+^8k;E>69m^t4$#>Z2)I'C0J4q..k2tr-RL,c,U4NX+sA*P
++<VaJ+!2RH+!2RH+!;[K+X&$R,9nH[,pjuf.4Qi!/M8_31,LjI3'',a5<qP'7S$-F:/Fhf='8a6;G^
++^8k;E>69mau4$#>Z2)I'C0J4q..k2tr-RL,c,U4KW+X%sN+<M[I+!2OF*ZlIG+!2UJ+<_mP+sS?Y,
+pjuf.4Qi!/M8\11,CdG2`Wr^5!VD$77TpB9i"Vc<`iO2;G^+^8k;E>69mau4$#>[2)I'C0J4q..k2t
+r-RL,b,U4KW+X%sN+!2RH*Zc@D*Zc@E+!2RI+<VgN+sS<X,palc-n-Vr/1iM/0f(XD2`Ni\4[25"77
+Kg?9M\Ma<EE@/;c$4_8k;E>6:!h!4$#>[2)I'C0J4q..k2tr-RL,b,U4KW+X%sN+!2RG*Zc@D*Zc@D
+*ZlIG+<VgN+sJ6W,UFcb-n-Vr/1iJ-0etOB2E3]Y4[21u6q0^>9MSD^<**4,;c-:`8k;E>6:!h!4$#
+>[2)I'C0J4q..k2tr-RL,b,U4KW+WqmM+!2RG*Zc@D*Zc@D*ZcCF+!;[L+X/*T,UF``-R^Dn.kNA,0
+JYF@2E*WX4?c"r6UaL:92/2[<*!+*;c-=a8k;E>6U<q"4?>G\2)I'C0J4q..k2tr-RL,b,9nBU+Wqm
+L+!2OF*Zc@D*Zc@D*Zc@E+!2UJ+X&$S,:"Q^-R^Dn.kE8)0JP=>2)dKU4?Ynp6UaL:92/2Z;cQq';c
+-=b91_WB6U<q"4?>G\2)I'C0J4q..k2tr-RL,b,9nBU+WqmL+!)IE*Zc=B*??.@*Zc@D+!2UJ+X&$R
+,:"Q^-7:2j.P*/(0/54<2)[ES4$>en6:=:68k_uV;H6e$;c-=b91_WB6U<q"4?>G\2)I'C0J4q..k2
+tr-RL,b,9nBU+WqmL+!)IE*ZZ7A*??.@*?H7C*ZlIH+<_mP,9nH[-7:2j.P!&&0/,+:1c@9Q4$5\l6
+:4138P;cS;H-\"<)HFc91_WB6U<q#4?>J]2)I*D0J>"/.k2tr-RL,b,9e<T+WqjK+!)IE*??.@*??.
+@*??1B*ZlIG+<VgO+sS?Z-7:2j.P!&%/hf"81c73O3]oPi5sn(28P;cR;,^Lt<)QLd91_WB6U<t$4?
+>J]2Dd3E0J>"/.k2tr-RL,b,9e<T+<VaJ*Zc@C*??.@*??.@*??.A*ZcCF+<VgN+sS?Y,pjuf.4Qi"
+/h\q71Gq'M3BKAg5XIk.84lQN:fC@q<)QOf91_WB6UF%%4?>J]2Dd3E0J>"/.k2tr-RL,b,9e<T+<V
+aJ*Zc@C*??.@*#oq=*??.@*Zc@E+!;[L+sJ6W,pjuf.4Qi!/MAe41Gh!K3BK>e5XIk-7nHBL:f:7o<
+)QOf9M.iF6pa.&4?GP^2Dd3E0J>"/.k2tr-RL,b,9e<T+<VaJ*Zc=B*??+>*#oq<*$$%?*?H7D+!;[
+L+X/-V,palc-n-Yt/M8_31,LjI3''/c5=%Y*7nH?J:Jk(l<DlXg9M.iF6pa.&4?GP^2Dd3E0J>"/.k
+2tr-RL,b,9e<T+<VaJ*Zc=B*??+>*#oq<*#ot>*??1B+!2UJ+X/-U,UFcb-n-Vr/M8\11,CdG3'',a
+5=%V(7S$-F:Jk%j<Du^h9M.iF6pa.&4ZbY`2Dm9G0J>%0.k2tr-RL,b,9e<T+<VaI*Zc=B*?6%=*#o
+q<*#oq=*??1B*ZlIH+X&$S,UFcb-n-Vr/1iM/0f(XE2`Wr^5!VG&7S$-F:/Fhg<Duai9M.iF6pa.'4
+ZbY`2Dm9G0J>%0.k2tr-RL,b,9e9S+<M[H*ZZ7A*#oq<*#oq<*#oq<*??.A*ZlIH+<_pR,:"Q^-R^D
+o/1iJ.0etRC2`Wo]5!M>#77TpB9i+_e<Duaj9hIrG6pa1(4Zb\a2Dm9G0J>%0.k2tr-RL,b,9e9S+<
+M[H*ZZ7A*#oq<*#oq<*#oq<*$$%?*ZcCF+<_pQ,:"Q^-R^Dn.kNA,0JYFA2E3`Z4[25"77TpB9i"Vb
+<`;jk9hS&J770@*4Zb\a2Dm9G0J>%0.k2tr-RL,b,9e9S+<M[H*ZZ7A*#oq<)]K_8)]Th;*#ot>*Zc
+CF+<VgO,:"Q]-7:5l.kE8*0JP@?2E3]Y4[)+t6q0^>9MSG`<`Dpl9hS&J770@*4Zkbb2`3EI0eY.2.
+k2tr-RL,b,9e9S+<M[H*ZZ7@*#oq;)]K_8)]Kb:*#ot>*?H7D+<VgO+sS?Z-7:2j.P*/(0JP=>2)dN
+V4?c"s6UaL:9MSD^<`Dsn9hS&J770@*5!1kc2`3EI0eY.2.k2tr-RL,b,9e9S+<M[H*ZZ7@*#oq;)]
+K_8)]K_9*#oq=*?H7D+!;^M+sS?Z-7:2j.P!)'0/54<2)dKU4?Ynp6UaL:92/2[=&`'o:/"5L770@+
+5!1kd2`3EI0eY.2/1N(s-RL,b,9e9S+<M[H*ZZ7@*#on:)]K_8)]K_8*#oq<*??1B+!;[L+sS?Y,pj
+ug.P!&%0/,.;2)[ES4$>eo6:=:68ki)Y=&i-p:/"8N7RTR.5!1kd2`<KJ0eb43/1N(s-RL,b,9e9S+
+<M[H*ZZ7@*#on:)]K_8)]K_8)]Th;*??1B+!2UK+sJ6W,pjuf.4Zr$/hf"91c@9Q4$5\l6:=:68k_u
+V=&i0q:/"8N7RTR.5!1ne2`<KK0eb43/1N(s-RL,b,9e9S+<M[H*ZZ7@*#fh9)]K_8)]K_8)]Kb:*$
+$%@*ZlLI+X/-V,pjuf.4Qi"/h\q71c73O3]oSj5sn(28P;fT=B/9s:J=AO7RTR.5!:tf2`<KK0eb43
+/1W.t-RL,b,9e9S+<M[H*??.?*#fh9)]K_7)B0V7)]Kb:*$$%@*ZlIH+X/-U,UFcb.4Qi!/h\n61Gq
+'M3]fJh5sn(28P;cR=B8?t:JFJQ7RTR/5<V(g3&WTL0eb74/1W1u-RL,b,9e<T+<M[H*??+>*#fh9)
+]K\6)B'M5)]K_9*#ot>*ZlIH+X&$S,UFcb-n-Yt/M8_31Gh!L3BKAf5XIk.84lQO=B8Bu:JFJR7n#d
+25<V(h3&WWM1,(@5/1W1u-RL,b,9e<T+<M[H*??+>*#fh9)]BV5)B'M4)]K_8*#ot>*ZcCG+<_pR,U
+Fcb-n-Vr/M8\21,LjI3BB8d5XIk.84lQN=]SL":JFJR7n#d25<V+i3&WWM1,(@6/1W2!-RL,b,9e<T
++<M[H*??+>*#fh9)B'M4)B'M4)B0V7*#oq=*?H:E+<_pR,:"Q^-n-Vr/1rS11,CdH3''/c5=%Y*7nH
+?K=]\R#:ejYT7n#d25<_1j3&`]O1,1F7/1W2!-mg5c,9nBU+<M[H*??+>*#fh9)B'M4)B'M4)B0V7)
+]Th<*?H7D+<_mP,:"Q^-R^Gp/1iM/1,CdG3'',a5=%Y*7nH?J>$"^%:ej\V84H!65X%:k3B&fP1,1F
+7/Lr;"-mp;d,U4KV+<M[H*??+>*#fh9)B'M4)B'M4)B'P6)]Th<*?H7D+<VgO,:"Q^-R^Dn/1iJ.0f
+(XE2`Wr_5!VG&7S$-F>$"^&:ej\V84H!65X%:l3B&fP1,1F7/Lr;"-mp>f,U4KV+<M[H*??+>)]K_8
+)B'M4)B'M4)B'M5)]Kb:*??1C+!;^N,:"N]-R^Dn.kNA,0etRC2`Wo]5!VG&7S$-F>$+d';,9kX84H
+!65X%=m3B&iQ1GLR9/M&A#-mp>f,U4KV+<M[H*??+>)]K_7)B'M4)B'M4)B'M5)]Kb:*??1B+!;^M+
+sS?Z-7:5l.kE;+0JYFA2`Ni\4[25"77TpB>?Fp*;,9nZ84H!65sILo3B/oR1GLR9/M&A#-mp>f,U4K
+V+<VaI*??+>)]K_7)B'M4)B'M4)B'M4)]Kb:*$$(A+!;[L+sS?Z-7:2j.kE8*0JP@@2E3]Y4[25"77
+TpB>?P!+;GU"[8Ol3:5sILo3]K#T1GUX;/M&D$-mp>f,U4KV+<VaI*ZZ4?)]K_7)B'M4)B'M4)B'M4
+)]K_9*$$%@+!2UK+sS?Z-7:2j.P*/(0JP@?2E*WX4[)+t6q0^>>?P$,;G^(\8Ol3:5sILp3]K#T1GU
+X;/M&D%-mp>f,U4KV+<VaI*ZZ4?)]K_7)B'M4)&X;1)B'M4)B0V8*$$%@*ZlLJ+sJ6W,pk#h.P!)'0
+/54=2)dNV4?c"s6q0^>>Zk-.;G^+^8k2<;5sRUr3]K&U1GUX;/hAM&.46Gg,U4KV+WqjJ*ZZ4?)]K_
+7)B'M4)&X;0)B'M4)B0V7*#ot?*ZlLI+X/-V,pjuf.P!&&0/,.;2)dKU4?btq6UaL:>Zt3/;c$4_8k
+;E>69m^s3]T,V1bpd=/hAM&.4?Mh,U4KV+WqjJ*ZZ4?*#fh8)B'M3)&X;0)&aD3)B0V7*#ot>*ZlIH
++X/-V,pjuf.4Zr$0/,+:2)[ET4$>eo6UaL:?!:?1;c-=a8k;E>69m^s4#o5X1bpd=/hJS'.4?Pi,U4
+KW+WqjJ*ZZ7@*#fh8)B'M3)&X;0)&X>2)B'P6*#ot>*ZlIH+X/-V,pjuf.4Ql#/hf"91c@9Q4$>en6
+:=:6?!CE3<)HFc91VN?69mau4#o5X1c$j?/hJV(.4?Pj,pX]Z+WqjJ*ZZ7@*#fh8)B'M3)&X;0)&X>
+2)B'P6)]Th<*ZcCG+X&$S,UFcc.4Qi"/h\q71c73P3]oSk6:=:6?<^Q5<)QLd91_WB6U<q"4#o8Y1c
+$j?/hJV(.4?Pj,pX]Z+WqjK*ZZ7@*#fh8)B'M3)&X;0)&X;1)B'M5)]Th<*?H:F+<_pR,UFcb-n6_u
+/h\n61Gq*N3]oSk5sn(2?<gW7<)QOf91_WB6U<q"4?>G[2)@!A0.e_*.4?Pj,pX]Z+WqjK*ZZ7@*#f
+h8)B'M3)&X;0)&X;1)B'M5)]Th<*?H:E+<_pR,UFcb-n-Yt/MAe51Gq'M3]fJh5sn(2?X-c9<DlXg9
+M.fD6U<t$4?>G\2)@!A0.ne+.OZYk,pX]Z+WqmL*ZZ7@*#fh8)B'M3)&X;0)&X;0)B'M5)]Kb;*?H7
+D+<_pR,UFcb-n-Vs/M8_31Gh!L3BKAg5sn(2?X6i;<Duai9M.iF6pa.&4?>J]2)I'C0.ne+.Oc_l,p
+X]Z+WqmL*Zc=A*#fh8)B'M3)&X;0)&X;0)B'M5)]Kb:*?H7D+<_mP,:"Q^-n-Vr/M8\21,LmJ3BK>e
+5XIk.?sQu=<`;jk9hIrG6pa.&4ZbY_2Dd0D0.nh,.Ocbm,pX]Z+X%sM*Zc=A*#fh9)B'M3)&X;0)&X
+;0)B'M4)]Kb:*??1C+<VgO,:"Q^-RgMq/1rS11,LjI3BB8d5XIk.?sQu><`Dpl9hS&J770@*4ZbY`2
+Dd3E0J4q..Ocbn-7'o^+sA'N*Zc=A*#fh9)B'M3)&X;0)&X;0)&aD3)]Kb:*??1C+!;^N,:"Q^-R^D
+o/1iM/1,CdH3''/b5=%Y*@:!/@=&`'o9hS&J770@*4Zb\a2Dm9F0J>"/.k)ko-7'o^+sA'N+!)FC*#
+on:)B'M3)&X;0)&X;0)&aD3)]K_9*??1B+!;^N,:"Q^-R^Dn/1iJ.0f([F3'',a5=%Y*@:!2A=&i-p
+:/"5L770@*5!1kc2`3BH0J>"/.k)ko-7'o^+sA'N+!)FC*#on:)B'M3)&X;0)&X;0)&aD3)]K_9*$$
+(A+!;^N+sS?[-R^Dn.kNA-0f(XE2`Wr_5<qP'@UEAD=B/9r:/"8N7RTR.5!1kd2`3EI0eY.1.k2tq-
+7'o^+sA'O+!)FC*#on:)B'M3)&X;0)&X;0)&aD3)B0V8*$$(A+!;^M+sS?Z-7C;m.kNA,0etRC2`Wr
+^5!VG&@UEDE=B8?t:J=AO7RTR.5!1ne2`<KJ0eY.2.k2tr-7'o^+sA*P+!)ID*#on:)B'M4)&X;0)&
+X;0)&X>2)B0V8*$$%@+!;[L+sS?Z-7:2k.kE;+0etRC2`Ni\5!VG&@piSH=B8Bu:JFJR7mo[05<V(g
+3&WTL0eb43/1N(s-RL)`+sJ0Q+!)ID*#on:)]BV5)&X;0)&X;0)&X>2)B0V8*$$%@+!2UK+sS?Z-7:
+2j.kE8*0JYFA2E3`[4[25"@piVI=]\R#:eaSS7n#d25<V(h3&WWM0eb74/1W.t-RL,b,9e9R+!2OE*
+?6";)]BV5)&X;0)&X;0)&X>2)B0V7*$$%@*ZlLJ+sS?Z-7:2j.P*/(0JP@@2E3`Z4[25"A78eL=]\U
+$:ej\U7n#d25<_1j3&`]N1,(@5/1W1u-RL,b,9e9R+!2OE*?6%<)]BV5)&X;0)&X;0)&X>2)B0V7*#
+ot?*ZlLJ+sJ6W-7:2j.P*/(0JP@?2E3]Y4[25!A7AnN>$+d';,0eW84H!65X%:k3B&fP1,1F7/1W2!
+-RL,b,9e9R+<MXF*?6%<)]BV5)AsD1)&X;0)&X>2)B'P6*#ot?*ZlLJ+X/-V,pk#h.P!)'0/54=2E*
+WX4?c"sAR]%Q>$+g(;,9nY84H!65X%=m3B&iQ1,1F7/Lr;"-mg5c,9e9S+<MXG*?6%<)]K\6)AsD1)
+&X;0)&X>2)B'P6*#ot>*ZlLI+X/-V,pjug.P!&&0/54=2)dNV4?c"sARf+S>?P!+;,9nZ8Ol3:5sIL
+o3B/oR1GLR9/M&A#-mp>f,U4KV+<MXG*??+=)]K\6)AsD1)&X;0)&X>2)B'P6*#ot>*ZlIH+X/-V,p
+juf.P!&%0/,.;2)dKU4?btqAn,7U>Zk--;G^(\8Ol3:5sILo3]K#T1GUX;/M&D$-mp>f,U4KV+<M[H
+*??+>)]K\6)B'J2)&X;0)&X>2)B'P6*#ot>*ZlIH+X/-V,pjuf.4Zr$0/,.;2)[ET4$>eoAn5=W>Zt
+3/;G^+^8k;B<5sRUr3]K&U1GUX;/hAM&-mp>f,U4KV+<VaI*??+>)]K\6)B'J2)&X;0)&X>2)B'P6*
+#ot>*ZlIH+X/-V,pjuf.4Ql#/hf"91c@<R4$>eoB4PIY?!:?1;c-:`8k;E>69m^s4#o5W1bpd=/hJS
+'.4?Mh,U4KV+WqjJ*ZZ4?)]K_7)B'J2)&X;0)&X>2)B'P6*#ot>*ZcCG+X/-U,UOle.4Qi"/hf"91c
+@9Q4$>bmBOtX\?!CE3;c-=b91VN?69mau4#o5X1c$j?/hJV(.4?Pj,pX]Z+WqjJ*ZZ7@*#fh8)B'M3
+)&X;0)&X>2)B'P6)]Th<*ZcCG+X&$S,UFcc.4Qi"/h\q71c73P4$5\lBOt[]?<^Q5<)QLd91_WB6U<
+q"4$#>Z2)?s@0.e_*.4?Pj,pX]Z+WqjK*ZZ7@*#fh8)B'M4)&X;0)&X>2)B'P6)]Th<*ZcCG+X&$S,
+UFcb.4Qi!/h\q71c73P3]oSkBkCj`?<gW7<DlXg9M%`C6U<q#4?>G\2)@!A0.ne+.OZYk,pX]Z+Wqm
+L*Zc=A*#fh9)B'M4)&X;0)&X>2)B'P6)]Th<*ZcCG+<_pR,UFcb-n6_u/h\n61Gq*N3]oSjBkLsb?X
+-c9<Du^h9M.iF6pa.&4?>J]2)I'C0.nh,.Ocbm,pX]Z+sA'N*Zc=B*#on:)B'M4)AsD1)&aD3)B'P6
+)]Th<*?H:F+<_pR,UFcb-n-Yt/MAe51Gq'M3]fJhC1h*e?X6i;<`;jk9hIrG6pa.&4ZbY_2Dd3E0J4
+q..Ocbn-7'o^+sA'N+!)FC*#on:)]BV5)B'J2)&aD3)B'P6)]Th<*?H:E+<_pR,UFcb-n-Yt/M8_31
+Gh!L3BKAgCM79h?sQu><`Dsm9hS&J770@*4ZbY`2Dm9F0J>"/.k)ko-7'o^+sA'O+!)ID*#on:)]BV
+5)B'M4)B'M4)B'P6)]Th<*?H:E+<_pR,UFcb-n-Vs/M8_31Gh!K3BKAfCM@Bj@:!2A=&`'o:.n/K77
+0@*4Zkbb2`3BH0J>%0.k2qp-7'o^+sA*P+!)ID*?6%<)]K\6)B'M4)B'M4)B'P6)]Th<*?H:E+<_pR
+,UFcb-n-Vr/M8_31,LmJ3BK>eCh[Kl@:*8C=&i0q:/"8N7RTR.5!1kd2`3EI0eY.2.k2tr-RC#_,9e
+9R+!2OE*?6%<)]K\6)B'M4)B'M4)B'P6)]Th<*?H:E+<_pR,:"Q_-n-Vr/M8\21,LjI3BB8dD/*]o@
+UEDE=B/9s:J=AO7RTR.5!:tf2`<KK0eb43/1N(s-RL,b,9e9R+<MXG*?6%=)]K_7)B'M4)B'M4)B'P
+6)]Th<*?H:E+<_pQ,:"Q^-n-Vr/1rS11,LjI3''/cD/*`q@UNJG=B8Bu:JFJR7n#d25<V(h3&WWM1,
+(@5/1W.t-RL,b,9e9S+<MXG*??+>)]K_7)B'M4)B'M4)B0V7)]Th<*?H:E+<_pQ,:"Q^-RgMq/1rS0
+1,CdH3''/bDJNot@pr\J=]\R#:ejYT7n#d25<_1j3&`]N1,(@6/1W2!-mg5c,9e<T+<M[H*??+>*#f
+h9)B'M4)B'M4)B0V7)]Th<*?H:E+<_mP,:"Q^-R^Gp/1iM/1,CdG3'',aDes-"A78hM>$"^&:ej\V8
+4H!65X%:k3B&fP1,1F7/Lr;"-mp>f,U4KV+<VaI*ZZ7@*#fh9)]BV5)B'M4)B0V7*#oq=*?H7D+<_m
+P,:"Q^-R^Do/1iM/0f([F3&s&`Des0$A7AnO>$+d';,9kX84H!65X%=m3B/oR1GLR9/M&D$-mp>f,U
+4KV+WqjJ*ZZ7@*#on:)]K\6)B'M4)]K_8*#oq=*?H7D+<_mP,:"Q^-R^Do/1iJ.0f(XE3&s&`E,B?'
+AR]%Q>?Fp*;,9nZ8Ol3:5sILo3]K#T1GUX;/M&D%.46Gg,U4KW+WqjK*Zc=B*#on:)]K_7)B'M5)]K
+_8*#oq=*?H7D+<_mP,:"Q^-R^Dn/1iJ.0f(XE2`Wr^EGfQ*An,4T>?P$,;G^+]8Ol3:5sIOq3]K&U1
+bpd=/hJS'.4?Pj,pX]Z+WqmL*Zc=B*#oq;)]K_8)]K_8)]K_8*#oq=*?H7D+<_mP,:"Q^-R^Dn/1iJ
+.0etRD2`Wo]EGfT,An5=W>Zt3/;c$4_8k;E>69m^s4#o5X1c$j?/hJV(.4?Pj,pX]Z+X%sM+!)FC*?
+6%=)]K_8)]K_8)]K_8*#oq=*?H:E+<_mP,:"Q^-R^Dn.kNA,0etRC2`Wo]Ec5c/B4PIY?!:?2;c-=b
+8k;E>69mau4#o8Y2)@!A0.e_*.OZYk,pX][+sA'O+!)ID*?6%=)]K_8)]K_8)]K_9*#ot>*?H:E+<_
+mP,:"Q^-R^Dn.kNA,0etRC2`Ni\F)Yu2BOtX\?!CE3<)QLd91_WB6U<q"4?>G\2)@!B0.ne+.Ocbn-
+7'o^+sA*P+!2OE*??+>*#fh9)]K_8)]K_9*#ot>*?H:E+<_mP,:"Q^-R^Dn.kNA,0etOB2`Ni\F)c)
+5BP(a_?<gW7<)QOf9M%`C6UF%%4?>J]2)I'C0J4q..Ocbn-7'o^+sJ0Q+!2OF*??+>*#on:)]K_8)]
+Kb:*#ot>*ZcCF+<_mP,:"Q^-R^Dn.kE;+0JYFA2E3`ZFE)58BkCma?X-c9<Du^h9M.iF6pa.&4ZbY_
+2Dd3E0J>"/.k2qp-7'o_,9e9R+<M[H*ZZ7@*#oq;)]K_8)]Kb:*#ot>*ZcCF+<_mP,:"Q^-R^Dn.kE
+;+0JYFA2E3`ZF`MD:C1h'd?X6i;<`;jk9hS&J770@*4Zb\a2Dm9G0J>%0.k2tr-RL,b,9e9S+<M[H*
+ZZ7A*#oq<*#fh9)]Th;*$$%?*ZcCF+<_mP,:"Q^-R^Dn.kE8*0JYFA2E3]YG&qV>C1q0g?sQu><`Ds
+m9hS&J770@*5!1kc2`3EI0eY.2/1N(s-RL,b,9nBU+<VaJ*Zc=B*#oq<*#oq<*#oq<*$$%?*ZcCF+<
+_mP,:"Q^-R^Dn.kE8*0JP@?2E3]YG'%_ACM7<i@:!2A=&i-p:/"8N7RTR.5!1ne2`<KK0eb74/1W2!
+-RL,c,U4KV+WqjK*Zc=B*?6%=*#oq<*#oq<*$$%?*ZcCF+<_mP,:"Q^-7C;m.kE8*0JP@?2E*WXGB@
+hCCh[Nm@:*8C=B/9s:J=AO7RTR.5<V(g3&WWM1,(@6/1W2!-mp>f,U4KW+WqmL+!)ID*??+>*#oq<*
+#oq<*??.A*ZcCF+<_mP,:"Q^-7:5l.kE8*0JP@?2E*WXG]e%FD/*]p@UNJG=B8Bu:JFJR7n#d25<V+
+i3&`]O1,1F7/M&A#-mp>f,U=TY+X%sM+!)IE*??.?*#oq<*#oq=*??.A*ZcCG+<_mP,:"Q^-7:5l.k
+E8)0JP@?2E*WWH$47JD/3fr@piVI=]\R#:ejYT7n#d35X%:l3B&iQ1GLR:/M&D%.4?Pj,pX]Z+sA'O
++!2OF*??.@*?6%=*#oq=*??.A*ZlIH+<_mP,:"Q^-7:5l.kE8)0JP@?2)dNVH$=@MDJNru@pr\K>$"
+^&:ej\V84H!65X.Cn3B/oS1GUX;/hJS'.4?Pj,pX][+sA*P+!2OF*ZZ7A*??.?*??.@*??1B*ZlIH+
+<_pQ,:"Q^-7:2k.kE8)0JP=>2)dKUH?XIODes-#A7AnO>$+g(;,9nZ8Ol3:5sILp3]K&U1bpd>/hJV
+).4?Pj-7'o^+sJ0Q+<M[H*Zc=B*??.@*??.@*??1B*ZlIH+<_pQ,:"Q^-7:2k.kE8)0JP=>2)dKUH[
+'[RE,B?&AR]%Q>?P!+;GU"[8Ol3:5sRUr3]T,W1c$j?0.e_*.Ocbn-7'o^,9e9S+<VaJ*Zc@C*??.@
+*??.@*?H7C+!2RI+<_pQ,:"Q^-7:2k.kE8)0JP=>2)dKUI!KmVE,KH)An,7U>Zk-.;G^+^8k;E>69m
+^t4#o8Y2)@!A0.nh,.Ocbn-7'r`,9e<T+<VaJ+!)IE*??.@*??.@*Zc@D+!2RI+X&$R,:"Q^-RU;l.
+kE8)0/54=2)dKUI<p*ZEGfT,An5=W>Zt60;c-=b8k;E?6U<q"4?>G\2)I'C0J4q..k2tr-RL,b,9nB
+U+WqmL+!)IE*Zc=B*??.A*Zc@D+!2UJ+X&$S,:"Q^-R^Dn.kE8)0/54=2)dKUI=$3]Ec5c/B4PIY?!
+CE3<)HFc91_WB6U<t$4?>J]2Dd3E0J>%0.k2tr-RL,b,U4KW+X%sN+!2OF*Zc@D*Zc@D*Zc@E+!2UJ
++X&$S,:"Q^-R^Dn.kE8)0/54<2)[ETIX?<_F)Yu2BOt[]?<^Q6<)QOf9M.iF6pa.&4ZbY`2Dm9G0eY
+.2/1W1u-mp>f,U4NX+X%sN+!2RG*Zc@D*Zc@D*Zc@E+!2UJ+X&$S,:"Q^-R^Dn.kE8)0/54<2)[ESI
+scNbF)c)5BkCj`?<gZ8<Duai9M.iF6pj7)4Zkbb2`3EI0eb74/1W2!-mp>f,U=TY+sA*P+<M[I+!)I
+E*Zc@D*ZcCF+!;[L+X/*T,:"Q^-R^Dn.kE8)0/54<2)[ESJ:2`fFE)58BkLsc?X6i;<`;jk9hS&J77
+0@+5!1kd2`<KK1,(@6/Lr;"-mpAh,pX][+sJ0R+<VaJ+!2OF*Zc@D*ZlIG+!;[L+X/*T,U=Z_-R^Dn
+.kE8)0/54<2)[ESJUVrjF`MG<C1h*e?sQu><`Dsn:/"8N7RTR.5!:tf3&WWM1,1I8/M&D%.4?Pj,pa
+f]+sJ0R+<VdK+!2RH+!2RH+!2RH+<VdM+X/*T,U=Z_-R^Dn.kE8)0/54<2)[ESJq&/nG&qV?CM7<i@
+:!2A=&i0q:/"8N7RTU05<V+i3&`]O1GLR:/hAM&.4?Pk-7'o^,9e<T+WqmM+!2RH+!2RH+!2RI+<Vg
+N+X/-U,UF``-R^Dn.kE8)0/54<2)[ESK7A;qGB@hBCh[Kl@:*;D=B8?t:JFJR7n#d25X%:l3B&iR1G
+U[</hJV).Ocbn-7'r`,9nBV+X%sN+<M[I+!2RH+!2RI+<VgN+sJ6V,UF``-R^Dn.kE8)0/54<2)[ES
+K7JArG]e%FChdTo@UNJG=]SL":ej\V84H!65X%=m3]K&U1bpd>0.e_*.Ocbn-RL,b,U4KW+X&!O+<V
+dK+!2RH+!;[K+<_mO+sJ6V,UF``-R^Dn.kE8)0/54<2)[ESKRnT!G]n.ID/3fr@piVJ=]\U%:ej\V8
+4H!75sILp3]T,W1c$m@0.nh-.k2tr-RL,c,U4NX+sA*Q+<VdL+<VdL+<VdL+<_mO+sJ6W,UFca-R^D
+n.kE8)0/54<2)[ESKn=f%H$4:LDJNruA78hM>$+d';,9nZ8Ol3:5sRUr4#o8Y2)@!B0J4q..k2tr-R
+U5e,U=TZ+sJ0R+WqmM+<VdL+<VdL+X&!Q+sS<X,UFca-R^Dn.kE8)0/54<2)[ESL4b#)H?XIODes0$
+A7AqP>?Fp*;G^+^8k;E>69mau4$#>[2)I*D0J>%1/1W2!-mp>g,pX`\,9e<T+X&!O+<VdL+<VdM+X&
+!Q+sS<X,UFcb-R^Dn.kE8)0/54<2)[BRLP15-H['[RE,B?'ARf+S>?P$-;G^+^8k;E?6U<q#4?>J]2
+Dm9G0eY.2/1W2!-mpAh,paf],9e<U+X&!P+WqmM+<_mO+X&$R+sS<X,palc-n$Mo.kE8)0JP==2)[B
+RLkUG1I!KmVEGfQ+An5=W>Zt60;c-=b91_WB6UF%%4ZbY`2Dm<H0eb75/M&D%.4?Pj-7'o_,9nBV+s
+A*Q+X&!P+X&!P+X/*S,9nHZ,palc-n$Mo.kE8)0JP==2)[BRM2$Y5I<p*ZEGoZ-B4PIY?!CE3<)QOf
+9M.iF6pa1(4Zkbc2`<KK1,(@6/M&D%.4?Sl-7'r`,U4NX+sJ3S+X&!P+X&!P+sJ3U,9nHZ,pjrd-n-
+Sp.kE8*0JP==2)[BRMMHk9IX?<^Ec>l1BOt[]?<^Q6<Du^h9M.iG770@*5!1ne3&WWN1,1I9/hJV).
+Ocbn-RL,c,U=TZ+sJ3T+X&!P+X&!Q+sJ3U,:"N\,pjrd-n-Vr.kE8*0JP==2)[ESMhct:IXHEaF)Z#
+4BP(a_?X-c:<Duaj9hS&J779I-5!:tg3&`]O1GUX;/hJV).Ocbo-RL/d,pX`\,9e<U+sJ3T+sJ3T+s
+J6V,:"N\,pjue-n-Vr/1iJ-0JP==2)[ESN/31>IscQdFE)58BkLsc?X6l<<`Dsn:/"8N7RTR/5<V+i
+3B&iR1GU[=0.nh-.k2tr-RU5e,pX`],9nEW+sJ3T+sJ3T+sS<W,U=W]-71)f-n-Vr/1iJ-0JP=>2)[
+ESN/<:AJ:2`gF`MD;C1q0g?s[&?=&i0q:/"8O7n#d25X%:l3B/rT1c$j?0.nh-.k2ts-mpAh,paf^,
+U4NY,9e<U+sJ3T,9nEX,U=Z^-71)g-n-Vr/1iJ-0JP=>2)[ESNJ`LEJUVrjG&qV?CM7<i@:*8C=B/9
+s:JFJR7n,m55X.Co3]T,W2)@!B0J>%1/1W2!-n$Gi-7'r`,U=TZ,9nEX,9nEX,9nEY,U=Z^-7:/h.4
+H_s/1iJ-0JP=>2)[ESNf/^IJq&/nGB@hBCh[Nm@UEDF=B8C!:ej\V84H!75sIOq4#o8Y2)I*D0J>%1
+/1W2".4?Pk-71#b,U=W[,9nEX,9nEX,9nHZ,UF``-7:/h.4Qet/1iJ-0JP=>2)[ESO,SpMK7JArGBI
+qED/*`q@piVI=]\U%;,9nZ8Ol3:69m^t4$#>[2Dd3F0eb75/M&D%.4HYm-RL/d,pX`],U4NY,9nEX,
+U=W\,paia-7:2i.4Qhu/1iJ-0JP@?2)[ESOH#-QKRnT!G]n.ID/3fs@pr_L>$+g(;,9nZ8k;E>6:!h
+!4?>J^2Dm<I0eb75/M&D&.Ocbo-RU5f,paf^,U=W\,U=W\,U=W],palb-RU;j.4Qi!/1iJ-0JYF@2)
+[ESOcG?UKn=f%H$4:LDJX$"A7AnO>?P!+;G^+^8k;H@6U<t$4Zb\a2`<KK1,1I9/hJV).Olkq-mpAh
+-7'ra,U=W\,U=W\,U=Z^,palb-RU;k.4Qi!/M/S.0etOA2)dKTP)kQYL4b#)H?XLPDf'6&ARf+S>Zk
+-.;c-=b91_WB6pa.'4Zkbc3&WWN1GLR:/hJV*.k2ts-mpAh-71#b,paf^,U=W\,UF`_,pjrd-R^Al.
+Olr"/M8\10etOA2)dKTPE:c]LP15-H['^TE,BB(An,7V>Zt61<)QOf9M.iF6pj7)5!1nf3&``P1GU[
+=0.nh-.k<(u.4?Pk-71&c,pai`,pai`,pai`-71&e-R^Al.Olr"/M8\10etOA2)dKTP`^uaLkUG1I!
+KmWEGfT,B4PIZ?!CH5<)QOf9M7rI770C,5<V+i3B&iR1c$j?0.nk//1W2".4?Sl-RU5f-7'ra,pai`
+,paia-71)f-n$Mn.P!##/M8\10etOA2E*TUQ'.2eM2$Y5I<p*[Ec5f0BOt[]?<gZ8<Duaj9hS&K7RT
+R/5<_1k3B/rU1c$mA0J>%1/1`;$.4HYn-RU8g-71&c,pai`,pjrc-7:/g-n$Mo.P!&$/M8\10etOA2
+E*TVQBRDiMMHk9IX?<_F)Z#4BP(d`?X6i;<`Dsn:/"8N7n#d35X%=m3]T,W2)I*E0eb75/M&D&.Oce
+p-mpAi-71&d-71&d-71&d-RU8i-n-Sp.P!&%/hSe20etOB2E*TVQ^!VmMhm(=IscNbFE)27BkLsc?s
+Qu>=&i0r:JFJR7n,m55sIOq4#o8Z2Dd3F0eb75/M/M(.Olkr-n$Gj-RU5f-71&d-71&e-RU;j-n-Sp
+.k</&/h\k30f(XD2E*TVR$EhqN/<:AJ:2`fF`MD;C1q0g@:!2B=B8?t:JOSU84H$85sRUs4$#A\2Dm
+<I1,1I9/hJV*.k3"t.4?Sm-RU8h-RL/e-RU8h-R^Ak.4H_r.kE5'/h\n51,CaE2E*WWR?j%uNJ`LEJ
+UVrjG&qV?CM@Bk@:*;E=B8C!:ej\W8Ol3;69mau4?GP_2`<KK1,1I90.nh-/1W2".4HYn-mpAi-RU8
+h-RU8h-n$Jm.4Qet.kE8(/h\n51,CaE2E*WWR[98$Nf/^IJq&/nG'%_BChdTo@UNMH=]\U%;,9nZ8k
+;E>6U<t$4Zb\b2`<NM1GU[=0.nh./1W5#.Oceq-n$Jk-RU8h-RU;j-n$Mn.4Qet.kE8)/h\n51,CaE
+2E3]XS!]J(O,SpMK7JArGBIqED/*`r@pr_L>$+g);G^+^8k;H@6UF%&4Zked3&``Q1bpg@0J>%1/M&
+D&.Olkr.4?Sm-n$Jl-n$Jl-n-So.Olr!/1`A*0/#"61,CaE2`NfYSXGe-OH#-QKRnT!G]n.IDJNruA
+7AnO>?P$-;c-=b91_ZD6pj7*5!:tg3B/oS1c$mA0J>(3/M&G'.k3"t.4H\o-n$Jl-n$Jl.4H\q.Olr
+!/1iG+0/,+81,CaF2`NfYSsl"1OcG?UKn=f%H$=@MDes0$ARf+S>Zt60;c-@d9M.iG770C,5<V+j3B
+/rU2)I*E0eb75/hJV*.k<)!.Oceq.4HYn-n-So.4H_r.P!##/1iJ,0/,+91GgsI2`NfZT:;45P)kQY
+L4b#)H?aRQE,BB(An,7V?!:?2<)QOf9hS&J7RTR/5<_4l3]T/X2)I*E0ek@8/hS_,/1W5#.Olkr.4H
+\p.4H\p.4Qes.k</%/M/S.0/,+91GgsI2`NfZTU_F9PE:c]LP15-H[0dUEGfT,B4PIZ?!CH5<Duaj9
+h\/M7R][25X.Co4#o8Z2Dm<I1,1I:0.nh./1`;%.k3"u.Oceq.4H\q.Olnu.k</%/M8Y/0JG4:1Ggs
+I2`Ni[Tq7^>P`^uaLkUG1I!KpXEc5c/BOt[^?<gZ9<`Dsn:/";P7n,m55sIOr4$#A]2`<NM1GU[=0/
+"q0/M&G'.k<)!.Olnt.Olnt.Olr!.kE5'/M8Y/0JP=<1GgsI2`Wo\U7[pBQ'.2eM2$Y5I<p-\Ec>l2
+BP(d`?X6l==&i0r:JFJS84H$869mau4?GS`2`<NM1GU^?0J>(3/M/M)/1W5$.Olnt.Olnt.k<,#/1`
+A)/hSe10JP==1c70M3&s#]US+-FQBRDiMMHk9IX??`F)c)6BkM!d?s[)A=B8C!:ej\V8Ol3;6:!h"4
+Zkbc3&``Q1c$mA0eb76/hJY+/1`;%.k<,#.k<,#.k<,$/1`A)/hSe20JP==1c70M3&s#]UnOBKQ^!V
+mMhm(=IscQdFE2;:C1q3h@:*;D=B8C!;,9nZ8Ou<>6UF%&5!1nf3B/oS2)I*E0eb:7/hS_-/M&G(.k
+<,#.k<,#.kE5&/1iG+/h\k30etL?1c70M3&s#^V4sTOR$EhqN/<:AJ:2chF`VM>CM@Bk@UNJG=]\U%
+;,C"]8kDNA6pa1)5!;"h3B/rU2)I*F1,1I:0.nk0/M/M)/1`>'.k</%/1`>'/M/S-0/#"50etO@1c7
+0M3&s&_VPBfSR?j%uNJ`LEJUVulG'%_BChdTo@pr\K>$+g);G^.`91_ZD770C,5<_1k3]T/Y2Dm<I1
+,:R<0J>(3/hJY,/1`>'/1`>'/1`A)/M8Y.0/#"60etOA2)[BQ3BB5aVkg#XR[98$Nf/^IJq&2pGBIq
+FD/3fsA78hN>?P$-;c-=c9M.lH779I.5X%=n4$#>[2Dm?K1GU[>0JG.5/hS_-/M/P*/1`>'/M/P+/h
+Sb00/,(71,:XB2)[BQ3BB5aWMQ>]S!]J(O,SpMK7JDtG]n.JDJX$"AR]%R>Zt61<)QOf9hS&K7R][2
+5X.Fq4$#A]2`<NM1c$mA0eb:70.nk0/M/P+/M/P+/M/P,/hSe10JG491,CaD2)[BQ3BB5bWhuPaSXG
+e-OH#-QKS"]$H$=@NDf'6&An,7V?!CH5<Duaj9h\/M7n#g55sRXt4?GSa3&``Q1c$pC0ek@90/"t2/
+hSb./M/P+/M8Y./h\k30JP:;1,CaE2E!KR3BB8cX/MhfSsl"1OcG?UKnFo(H?aRRE,KH*An5@Y?<gZ
+9<`Dsn:/+AQ84H$86:!h"4Zked3&`cS2)I*F1,1L;0J>(4/hSb//hSb//hSb00/#"50JP:;1G^jF2E
+*TU3]fGeXJr%jT:D:6P)kQYL4k,,H[0dVEGoZ.B4YR]?X-c:<`N'q:JFMT8Ol3;6U<t%5!1nf3B/rU
+2)R3H1GU[>0JG160/"t2/hSb//h\k20/,(60ekF=1GgsH2E*TU3]fGeXfA7nTUhO;PE:c]LP:>0I!U
+!ZEc>l2BP(da?X6l==&i3t:ej_X8Ou<>6UF('5!;"i3]T/Y2Dm?K1G^d@0ek@90J>(40/"t30/"t30
+JG180etL?1GgsI2E*TU3]fGeY,eLsTq7a@P`^uaM2$Y5I=$3^F)c)6BkM!e?s[)A=B8C";,9n[8kDN
+B6pj7*5<_4m4$#A]2`<NM1c$pC1,1L;0JG160/"t30/#"50JG491,:XA1c.'J2`NfX3]oPhYcOh#U7
+[sDQBI;gMMHk9IXHEbFE)59C1q3i@:*;E=]\U%;G^+_91_ZD779I.5X.Co4$#A]2`EWP1c.!E1,:R=
+0eb:80JG170JG170ekC<1,:XB1c70L2`NfY4$5YiZ)t%(US+0HQ^!VmMhm(=IslWfF`MG=CM@El@UN
+MI>$+g);c-=b9M.lH7RTU15X.Fq4?GSa3&`cS2)I-G1GU^@0ekC;0JG170JG490ekF=1,C^C2)R9N2
+`NfY4$5YiZEL=-V4jKMR$EhqN/<:AJUVrkG&qYAChdWp@pr_M>?P$-;c6Fe9hS&K7n#g45sRXu4Zke
+e3B/rU2Dm<J1G^dA1,1L<0ekC;0ekC;0etL>1G^jE2)[?O3&s#\4$5YjZ`pO1VP9]QR?j%uNJ`LEJq
+&/oGBIqFD/3itA7AqQ>Zt61<)QRh9h\/N7n,p76:!k#4Zkee3B9&X2E!EM1c.!E1,:U?0ekC;0ekF=
+1,:U@1GgpG2)[BP3&s#]4?Ykm['?d6VkfuVR[98$Nf/^IK7JAsG]n.JDJX'#ARf.U?!CH5<Dudl:/+
+AR84Q*:6UF%&5!;"i3]T2[2`<QO2)I-G1G^dA1,:U?1,:U?1,C^B1c.'I2E!KR3B9,^4?Ykm[^**;W
+265[S!]J(O,SpMKRnT"H$=@NDf'9'An5@Y?<gZ9<`Dso:JFMT8Ou<>6pa1)5<_4m4$#A]3&``R2)R3
+I1c$pD1GU^@1,:XA1G^gD1c7-K2E*QS3BB5`4?Ykm\$N<@WMZG_S=,\,OH#-RKn=f&H?aRRE,KK+B4
+YR]?X6l==&i0s:ej_X8k;HA6pj:,5X.Cp4?GSa3&iiT2Dm?L1c.$F1G^gC1G^gC1GgpF2)R6L2`E]V
+3BB5a4[)(q\@&TEWi)YdSsl"1OcGBWL4b#*H[0dVEGo]/BP(da?s[)A=B8C";,9q\91_ZD779L/5X.
+Fq4?GVc3B/uW2`<QO2)I-H1c.!E1G^jE1c.$H2)R9M2`NcW3]]>b4[)(q\[JfIXJhtiT:D:6P)tZ\L
+P18/I!U!ZEc>o3BkM!e?s[,C=]\U%;G^+_91hcG7R][25sRXu4Zkee3]T/Z2`EWQ2)R6J1c.$G1c.$
+G1c7-J2E!HP2`NfX3]fGe4[)(q]=5/OXfA7nTUhO<P`^uaLkUJ3I=$3^F)c,7C1q3i@:*;F>$+g);c
+-=c9M7rJ7n#g56:!k$5!;"i3]]8\3&`cS2E!EM2)R6K1c7-J2)R6L2E!KQ3&ioZ3]fGe5!M:u]XYAS
+Y,eIrTq7a@Q'.2eM2$\7IXHEbFE2>;CM@El@UNMI>?P$-;c6Ff9h\/N84H$96UF%&5<_4m4$#D_3B/
+rV2`<QP2)R6K2)R6K2)[?N2E*QS3&ru[4$5Vg5!M:u]t1YYYH4_"U7[sDQBRDiMMQt<IslWfF`VP?C
+hdWp@pr_M>?Y-0<)ZXj:/";Q84Q-<6UF((5<_4n4?GSb3B9&Y2`EZR2E!HO2E!HO2E!HP2`E]U3B9,
+^4$5Yi5<hD!^:Uk]Z)t%(US+0HQ^!VmMi!1@JUVrkG'%bCD/3itA7AqQ>[(?4<E)jm:JFMU8Ou??6p
+j:,5X.Fq4Zkee3]T2[3&iiU2`<QP2E!HO2E*QR2`NcW3BB2_4?Pbj5<qM$^q@4cZEC7,V4jKMR$Ehq
+NJ`LEJq&/oGBItGDJX'#ARf.U?!LQ8<`E!p:ej_X8kDNB779L05sRXu4Ztnh4$#A^3B/uX2`EZS2`E
+ZS2`EZT3&ioY3]]>a4?Ykl5<qM$_7dFgZ`pO1VPBfSR?j&!Nf/^IK7JDtH$4:LDf'9'An5@Y?<g];=
+&i3t;,9q\91h`F7R]^46:!k$5!;%k4$,Ja3B9&Y3&ilV2`EZS3&ilW3&ru[3]fDc4Zttn5X@_(_S<^
+m['?d6Vkg#XS!]J(O,SpNKRnW#H?XLPE,KK+B4YR]?X6o?=B8F#;,C"^9M.lI7n#g56:!k%5<_4n4?
+GVc3]T2\3B/uX3&ilW3&ilX3B9,]4$,Pe4[)%o5X@_(`5'$r[^**<W265\S=,\,OH#-RKn=i'H['^T
+EGo]/BP(da?s[,C=]\X';Gg4b9hS)M7n,p86UF((5X.Fq4Zkef4$#D_3B9)[3B/uY3B9)[3BB2_4$5
+Vg4[)(q5s[h)`PK:"\$N<@WhuPaSXPn0OcGBWL4b&+I!KpXEc>o3BkM!e@:*;F>$+g*;c6Ff9h\2O8
+4Q-<6pj:,5X.Is4Ztni4$,Ja3]]8]3B9)[3B9,]3]]>a4?Pbi5!M7s5sdq,`l#R(\@&TEX/MhfSsu+
+4P)kT[LP:>0I<p-]F)c,8C1q3i@UNMJ>?P$.<)ZXj:/+DS8Ou?@779L05sRY!5!;%k4?GVd3]];_3]
+];_3]];_4$,Md4?Yhk5!M:u5sdq,a2Gd,\[JiJXJr(kT:D=8PECl`Lk^P4IX??aFE2><CM@Em@pr_N
+>Zt62<E)jn:JOSV8kDQD7R]^46:!k$5<_7o4Zkhg4$,Mb3]];_3]]>a4$,Pe4Zttm5<qJ"6:4.0ai2
+-2]=5/PXfA:pTq7a@Q'.2eM2-b9IslWfF`VP@ChdWqA7AqR?!CH6<`E!p:eseZ91h`F7R]^46UF((5
+X.Fr4Ztni4?P\e4$,Mc4$,Mc4?P_h4[)%o5<qM#6:4.0b/_E7]XbGUYH+UuU7[sDQBRDiMhm(>J:;i
+jG'%bDD/3iuARf.V?<gZ:=&i3t;,C"^9M.lI7n,p86UO1+5X7Ou5!D+m4?P_g4?P_g4?P_g4?Yhj5!
+D1q5X7V%6UX=2bK.W<]t1YYYcXn%US+0HQ^!VnN/<:BJU`&nG]e(IDes0%An5@Z?X6l>=B8F#;G^.a
+9hS)M84Q-<6pj=.5sR\"5<_7o4Ztqj4?P_g4?P_h4Ztql5!M7s5X@_'6UX@4c,muB^Uq"_Z*(.*UnO
+BLR$EksNJ`OGJq/8rH$4:ME,BB)B4YR]?s[)A=]\X';c-@e9h\2P8Ou?@779L16:!n&5<h@r5!D+m4
+Ztqk4Ztqk4[)%n5<hCu5s[h)6psI5cHF8G^q@4dZEL@/VP9]QR?s/#Nf/aKKRnW#H?XLQEGfT-BP(d
+a@:*;E>$+j+<)QRi:/+DT8kDQD7R]^46UF()5X7Ou5<_7p5!;%l4Zttm5!D1q5<qJ"5sdq+6q'R8d*
+0SM_7mLi['6[4Vkg#XS!]J(O,]$PKn=i'H['^UEc>l2BkM!e@UNMI>?P'/<Dudl:JOVX8kDQD7n,p8
+6UO1+5sR\#5<h@r5!D.o5!D.o5<h@s5X7V$6:+%-77B[9dEThR_nWjo[Bcs9W265\S=,\,OcG?UL4b
+&+I!U!ZF)c)6C1q3j@pr_M>Zt93<`E!p:esh[91hcH7n,s:6pj=.6:!n&5X7Ou5<h@s5<h@s5<hCu5
+X@\&6:4./77Kd<da-+W`5''t[^33>WMZG`SXPn1P)kQZLP18/I=$3^FE2>;CM@EnA7AqQ?!CH6<`N*
+s;,C"^9M7uL84Q-=779O26:*t(5sR\#5X.It5<h@t5X7S#5s[h(6UO717Rfm=eBlF]`PT@$\?rNDX/
+DbeSsu.6PE:c^Lk^P5IXHEbF`VP@ChdWrARf.U?<gZ:=&r=";Gg4b9h\2P8Ou?@7R]^56UO1,5s[e%
+5X7S"5X7S"5X@\%6:+"+6UX@37Rp!@e^;[ba2>^*\[JfIXJr(lTUhO<P`_#cM2-b9IslZgG'%bDDJO
+!#An5@Y?X6l>=BAL%;c6Ff:/+DT8kDQD7n,p96pj=.6:*t(5s[e&5s[e&5s[e'6:4+-6q'O67n6*Af
+@/'iaMbp/]!o&NXfA:pTq7a@Q'7;hMhm(>J:;lkGBItHDf'9(B4YR]?s[)B=]e^)<)QRi:JOVX91hc
+H7n6$;779O26UF++6:*t(5s[e&6:+"*6UO7077B[87n?3Df[S<nai;34]XYATY,eLtU7[sDQ^!VmN/
+<=CJq&2qG]n1LE,KK,BP(da@:*;F>$4p-<Dudm:esh\9M7uL84Q0>7R]^56pj=/6:+"*6:+"*6:+%,
+6UX=277Ka:84Z<Eg"+TsbK%Q:]t1YYYcXq&US+3JR$EhrNJ`OGK7JDuH$=CPEGo]0BkM!e@UNMJ>?Y
+-1<`E!q;,C"^9MA)O8OuBB7Rfg86psF16UO4.6UO4.6UO4/6psI47Rfm<84cEHgXjp$bfRi@^:Un^Z
+*(.+V4sTPR?j&!Nf8gLKS"]%H['^UEc>o4C1q3i@pr_N>[(?5=&i3u;G^.a9h\2Q8kDQE7n6$<77BU
+46psC06UO4.6psF277BX77Ros>8P)NIgt:0)cH=/E^q@4dZEL@/VPBfTR[9;&O,]$QKnFo)I!KpYF)
+c,8CM@EmA7AqR?!LQ9=&r=#;Gg7d:/+DT91hcI84Q0>7R]a7779O36psF26psI477B[87n6*A8P2WL
+hV-Q0ccaDJ_7mLi['?a5Vkg#XS=,\,OcG?VL4k,-I=$3^FE2><ChdWrARf.V?<pc==BAO';c6Ih:JO
+VX9M7uL8OuBB7n,s;77BX677BX677BX67Rfj;7n?3C8kVfNhqQf5d*9\P_S<an[Bd!;WMZG`SXPn0P
+)kT[LkUJ3IXHEbF`VP@D/3j!An5@Z?X?uA=]ea+<)Z[l:esh\9MA)O8kDQE7n6'=7Rfj:77BX67Rfj
+:7Ros>84cBF8kViPiSE2;da$%V`5''t[^33?Wi)YdSsu+5PE:f_M2$\7IslZgG'%bDDJX'%B4YR^?s
+d2E>$4s.<E)mp;,C%`9h\5R8kMZH84Z6@7n6$<7Rfj:7Rfm<7n6*@8P)NH92&#RiniGAe'Q=\`PT@$
+\@&TEX/MkhT:MF;P`h)dMMHn<J:;llGBItHDf'<*BP(db@:3DI>?Y02<`N*t;Gg7d:/+GV91qlK8P)
+HD84Q0?7n6'>7n6'>84Z9C8P2TJ92&&Tj5A_Fe^;Xaa2>^*\[JiKXf81nTq7a@QBRDjMi!1AJU`)pH
+$4:ME,KN.BkM$g@UWVM>[(B6=&r=#;c6Ih:JOVY9M8#N8kDTG84Z9B84Z9B84Z9B84cBE8kM`L9MJ5
+Vjl,%Lf$_mfaMbp/]=5/PY,eLtU7[sDQ^!VnN/ECEK7JDuH?aUSEH#f3C1q6k@q&hQ?!LT:=BAO'<)
+Z[l:esh]9h\5R91hfJ8P)KE84Z9B84Z<D8P)NH8kVfN9heAYk2Y@Rf[S9mai;65]XbGUYH4_#US+3J
+R$EksNf/aKKS"]%H[0gXF)c,8CM@HoA7K%U?<pf>=]ea+<E)mp;,C%`:/+DU91qoM8kMZH8P)KF8P)
+KF8kM]K92&#R9hnJ[kiC[Xg""NrbK%Q;]t1\[Z)t%(V4sTPR?s/#O,SsOKnFo)I!U$\FE2><ChdZsA
+Ro7Y?X@#B>$4s/<E)mq;Gg7d:JOVY9MA)P91hfK8kM]J8kM]J8kVfM9MA/T:/=Y^l/q!^g=Og#bfRi
+@^Uq"`ZEL@/VPBfTS!]J)OH,6UL4k/.I=$6`F`VP@D/<s#An>I]?sd5F>?Y03<`N*t;c6Ih:JX_\9h
+e;T91qoN91hfK8kVfM91qrP9MJ5V:/=\`lf[<dgt:0)cH=2F^qI=fZ`pR3Vkg#YS=,\-OcPHYLP:A3
+IXHHdG'%bDDJa0'BP(db@:3GJ>[(B6=&r=#;c?Rk:f'q_:/+GW9MA,R91qoN91qoO9MA,S9heAY:Ja
+kbm-3Wjh:gH/ccjJL_7mOk[Bcs9WMZG`SXPq2PE:f_M2$\8J:2ciGBItHDf0B+BkM!f@UWYN?!LT:=
+BAO'<)cdo;,L.c:JOYZ9he>U9MA,R9MA,R9MJ5U:/4S\:f("emcrrphqQf5d*9_Q_n`pq[^33?Wi)Y
+dSt)47P`_#cMMQt=JU`&nG]n1LEGo]0C1q3j@q&kR?<pf>=]ea+<E)pr;Gg:f:esk^:/4MX9he>V9h
+e>V9heAX:/=Y^:f1+gn*K9!i8*):da$%W`501"\$WECX/MkiTUhO=Q'7;iMi!1AJq/;sH$=CQEc>o4
+CM@HoARf1W?X@#B>$4s/<`N.!;c6Lj;,C(b:JOY[:/4MX9heAX:/4P[:JXe`;,U:jna5T'iniGAe'Q
+=\`koL'\[JiKXfA:pTq7dBQB[MmN/EFFK7SN#H[0gXF)c,9ChdZsAn5C[?sd5F>?Y03=&r=$<)Z^n;
+,L.d:esk_:/4PZ:/4PZ:JXb^:f("d;GpFmoC)#.j5A_Fe^;[ca2Gg-]!o&OY,eLtU7e'GR$EksNf/a
+LKS"`'I!U$\FE2>=D/3m"B4YU_@:3GJ>[(B7=BAO(<E)mq;Gp@h:f'tb:JXb^:JXb^:Jaka:f1(f;H
+$Ooo^M53jl,(Mf$hshai2-3]XYATYH4_$UnOBMR?j)"O,SsPL4b&,I=$6`F`VSBDJX*&BP(gc@UWYN
+?!LT;=]ea,<`N*u;c?Rl;,L1e:f'tb:f'tb:f("d;,U:i;cH^r~>
+InterpretLevel1 not {
+  grestore
+} if
+grestore
+%%%%EndImage
+% End plot #1
+% Begin plot #2
+1.000 UL
+LTb
+LCb setrgbcolor
+/Helvetica findfont 250 scalefont setfont
+1467 863 M
+58 0 R
+-18 19 V
+-21 21 V
+-19 18 V
+118 -58 R
+-39 38 V
+-2 2 V
+-37 37 V
+-2 2 V
+-38 39 V
+1645 863 M
+-19 19 V
+-22 21 V
+-18 18 V
+-22 21 V
+-18 18 V
+-21 22 V
+-18 18 V
+-21 22 V
+-19 19 V
+1707 863 M
+-2 2 V
+-39 38 V
+-1 0 V
+-39 39 V
+-1 0 V
+-39 39 V
+-1 1 V
+-39 39 V
+0 1 V
+-39 39 V
+0 1 V
+-38 39 V
+-2 2 V
+1769 863 M
+-24 24 V
+-17 16 V
+-23 22 V
+-18 17 V
+-22 22 V
+-18 18 V
+-21 21 V
+-19 19 V
+-21 21 V
+-18 18 V
+-22 22 V
+-17 18 V
+-22 23 V
+-16 17 V
+-24 24 V
+1834 863 M
+-10 9 V
+-32 31 V
+-8 7 V
+-34 32 V
+-5 6 V
+-35 34 V
+-5 5 V
+-35 35 V
+-5 4 V
+-35 35 V
+-4 5 V
+-35 35 V
+-5 5 V
+-34 35 V
+-6 5 V
+-32 34 V
+-7 8 V
+-31 32 V
+-9 10 V
+1899 863 M
+-35 33 V
+-7 7 V
+-33 31 V
+-9 8 V
+-31 30 V
+-10 10 V
+-29 29 V
+-12 11 V
+-28 28 V
+-12 11 V
+-28 28 V
+-11 12 V
+-28 28 V
+-11 12 V
+-29 29 V
+-10 10 V
+-30 31 V
+-8 9 V
+-31 33 V
+-7 7 V
+-33 35 V
+1966 863 M
+-23 22 V
+-20 18 V
+-20 19 V
+-22 20 V
+-17 17 V
+-24 23 V
+-16 15 V
+-26 25 V
+-14 13 V
+-26 26 V
+-13 13 V
+-27 27 V
+-13 13 V
+-27 27 V
+-13 13 V
+-26 26 V
+-13 14 V
+-25 26 V
+-15 16 V
+-23 24 V
+-17 17 V
+-20 22 V
+-19 20 V
+-18 20 V
+-22 23 V
+2035 863 M
+-13 12 V
+-30 28 V
+-9 8 V
+-34 31 V
+-6 6 V
+-36 34 V
+-4 3 V
+-38 37 V
+-1 1 V
+-40 38 V
+-40 39 V
+-1 1 V
+-38 39 V
+-1 1 V
+-39 38 V
+-1 1 V
+-39 40 V
+-38 40 V
+-1 1 V
+-37 38 V
+-3 4 V
+-34 36 V
+-6 6 V
+-31 34 V
+-8 9 V
+-28 30 V
+-12 13 V
+2105 863 M
+-3 4 V
+-40 35 V
+-1 1 V
+-39 35 V
+-4 4 V
+-35 33 V
+-8 7 V
+-32 30 V
+-10 10 V
+-30 28 V
+-11 11 V
+-28 27 V
+-13 13 V
+-27 26 V
+-14 14 V
+-26 25 V
+-14 14 V
+-25 26 V
+-14 14 V
+-26 27 V
+-13 13 V
+-27 28 V
+-11 11 V
+-28 30 V
+-10 10 V
+-30 32 V
+-7 8 V
+-33 35 V
+-4 4 V
+-35 39 V
+-1 1 V
+-35 40 V
+-4 3 V
+2178 863 M
+-37 32 V
+-8 8 V
+-31 28 V
+-13 11 V
+-27 25 V
+-16 15 V
+-24 22 V
+-19 18 V
+-20 19 V
+-22 20 V
+-18 18 V
+-24 22 V
+-16 16 V
+-24 24 V
+-15 14 V
+-26 25 V
+-14 15 V
+-25 25 V
+-15 14 V
+-25 26 V
+-14 15 V
+-24 24 V
+-16 16 V
+-22 24 V
+-18 18 V
+-20 22 V
+-19 20 V
+-18 19 V
+-22 24 V
+-15 16 V
+-25 27 V
+-11 13 V
+-28 31 V
+-8 8 V
+-32 37 V
+2252 863 M
+-32 28 V
+-13 12 V
+-26 23 V
+-19 16 V
+-21 19 V
+-23 21 V
+-16 15 V
+-27 25 V
+-13 12 V
+-30 27 V
+-10 10 V
+-32 30 V
+-7 7 V
+-34 33 V
+-6 5 V
+-35 34 V
+-5 5 V
+-36 35 V
+-3 4 V
+-36 36 V
+-4 3 V
+-35 36 V
+-5 5 V
+-34 35 V
+-5 6 V
+-33 34 V
+-7 7 V
+-30 32 V
+-10 10 V
+-27 30 V
+-12 13 V
+-25 27 V
+stroke 1601 1498 M
+-15 16 V
+-21 23 V
+-19 21 V
+-16 19 V
+-23 26 V
+-12 13 V
+-28 32 V
+2329 863 M
+-29 25 V
+-17 15 V
+-23 19 V
+-23 20 V
+-17 15 V
+-27 25 V
+-12 10 V
+-32 30 V
+-8 6 V
+-36 33 V
+-3 4 V
+-40 36 V
+0 1 V
+-40 37 V
+-2 2 V
+-37 36 V
+-4 3 V
+-36 35 V
+-5 5 V
+-35 34 V
+-5 6 V
+-34 34 V
+-6 5 V
+-34 35 V
+-5 5 V
+-35 36 V
+-3 4 V
+-36 37 V
+-2 2 V
+-37 40 V
+-1 0 V
+-36 40 V
+-4 3 V
+-33 36 V
+-6 8 V
+-30 32 V
+-10 12 V
+-25 27 V
+-15 17 V
+-20 23 V
+-19 23 V
+-15 17 V
+-25 29 V
+2408 863 M
+-29 24 V
+-18 16 V
+-22 18 V
+-24 21 V
+-15 13 V
+-31 27 V
+-9 8 V
+-36 32 V
+-4 3 V
+-39 36 V
+-1 0 V
+-39 36 V
+-4 4 V
+-35 33 V
+-8 7 V
+-32 30 V
+-10 9 V
+-30 29 V
+-11 11 V
+-28 27 V
+-13 13 V
+-27 26 V
+-13 13 V
+-27 27 V
+-13 13 V
+-26 27 V
+-13 13 V
+-27 28 V
+-11 11 V
+-29 30 V
+-9 10 V
+-30 32 V
+-7 8 V
+-33 35 V
+-4 4 V
+-36 39 V
+0 1 V
+-36 39 V
+-3 4 V
+-32 36 V
+-8 9 V
+-27 31 V
+-13 15 V
+-21 24 V
+-18 22 V
+-16 18 V
+-24 29 V
+2490 863 M
+-32 26 V
+-16 14 V
+-23 19 V
+-24 20 V
+-16 14 V
+-31 26 V
+-9 8 V
+-36 32 V
+-3 2 V
+-40 35 V
+-2 2 V
+-38 34 V
+-6 6 V
+-33 30 V
+-11 10 V
+-29 27 V
+-13 12 V
+-26 25 V
+-16 15 V
+-24 23 V
+-18 17 V
+-22 21 V
+-18 18 V
+-21 21 V
+-20 19 V
+-20 20 V
+-19 20 V
+-21 21 V
+-18 18 V
+-21 22 V
+-17 18 V
+-23 24 V
+-15 16 V
+-25 26 V
+-12 13 V
+-27 29 V
+-10 11 V
+-30 33 V
+-6 6 V
+-34 38 V
+-2 2 V
+-35 40 V
+-2 3 V
+-32 36 V
+-8 9 V
+-26 31 V
+-14 16 V
+-20 24 V
+-19 23 V
+-14 16 V
+-26 32 V
+5393 4789 M
+2575 863 M
+-37 30 V
+-12 10 V
+-28 22 V
+-21 17 V
+-19 16 V
+-28 24 V
+-11 10 V
+-35 30 V
+-5 3 V
+-40 35 V
+-1 1 V
+-38 34 V
+-7 6 V
+-33 29 V
+-11 11 V
+-29 25 V
+-15 14 V
+-24 23 V
+-18 17 V
+-22 20 V
+-20 20 V
+-19 18 V
+-23 21 V
+-17 17 V
+-23 23 V
+-17 16 V
+-24 24 V
+-15 15 V
+-24 24 V
+-16 17 V
+-23 23 V
+-17 17 V
+-21 23 V
+-18 19 V
+-20 20 V
+-20 22 V
+-17 18 V
+-23 24 V
+-14 15 V
+-25 29 V
+-11 11 V
+-29 33 V
+-6 7 V
+-34 38 V
+-1 1 V
+-35 40 V
+-3 5 V
+-30 35 V
+-10 11 V
+-24 28 V
+-16 19 V
+-17 21 V
+-22 28 V
+-10 12 V
+-30 37 V
+5393 4712 M
+-37 37 V
+-3 3 V
+-37 37 V
+2663 863 M
+-6 5 V
+-40 31 V
+-4 4 V
+-36 28 V
+-14 11 V
+-25 21 V
+-23 19 V
+-17 14 V
+-31 26 V
+-9 7 V
+-37 32 V
+-2 2 V
+-40 34 V
+-4 4 V
+-36 31 V
+-9 9 V
+-30 27 V
+-14 12 V
+-26 24 V
+-18 16 V
+-22 20 V
+-21 20 V
+-18 17 V
+-24 22 V
+-16 16 V
+-25 24 V
+-14 14 V
+-27 26 V
+-13 13 V
+-27 26 V
+-13 13 V
+-26 27 V
+-13 13 V
+-26 27 V
+-14 14 V
+-24 25 V
+stroke 1919 1537 M
+-16 16 V
+-22 24 V
+-17 18 V
+-20 21 V
+-20 22 V
+-16 18 V
+-24 26 V
+-12 14 V
+-27 30 V
+-9 9 V
+-31 36 V
+-4 4 V
+-34 40 V
+-2 2 V
+-32 37 V
+-7 9 V
+-26 31 V
+-14 17 V
+-19 23 V
+-21 25 V
+-11 14 V
+-28 36 V
+-4 4 V
+-31 40 V
+-5 6 V
+5393 4633 M
+-36 37 V
+-4 4 V
+-35 36 V
+-4 4 V
+-36 35 V
+-4 4 V
+-37 36 V
+2755 863 M
+-19 14 V
+-33 26 V
+-7 5 V
+-39 31 V
+-4 3 V
+-36 29 V
+-14 11 V
+-26 21 V
+-23 19 V
+-16 13 V
+-31 26 V
+-9 8 V
+-38 32 V
+-2 1 V
+-39 34 V
+-5 5 V
+-35 30 V
+-10 9 V
+-30 26 V
+-15 14 V
+-24 22 V
+-19 18 V
+-21 19 V
+-22 20 V
+-18 17 V
+-24 23 V
+-15 14 V
+-27 26 V
+-13 12 V
+-27 27 V
+-12 12 V
+-28 28 V
+-12 12 V
+-28 28 V
+-12 12 V
+-27 27 V
+-12 13 V
+-26 27 V
+-14 15 V
+-23 24 V
+-17 18 V
+-20 22 V
+-19 21 V
+-18 19 V
+-22 24 V
+-14 15 V
+-26 30 V
+-9 10 V
+-30 35 V
+-5 5 V
+-34 39 V
+-1 2 V
+-32 38 V
+-8 9 V
+-26 31 V
+-13 16 V
+-19 23 V
+-21 26 V
+-11 14 V
+-29 36 V
+-3 4 V
+-31 39 V
+-5 7 V
+-26 33 V
+-14 19 V
+5393 4551 M
+-38 40 V
+-2 2 V
+-36 37 V
+-3 3 V
+-37 37 V
+-3 3 V
+-37 37 V
+-3 3 V
+-37 36 V
+-2 2 V
+-40 38 V
+2851 863 M
+-36 27 V
+-17 13 V
+-22 17 V
+-30 22 V
+-10 8 V
+-40 31 V
+-1 1 V
+-38 30 V
+-12 10 V
+-28 22 V
+-21 17 V
+-19 16 V
+-29 24 V
+-10 9 V
+-37 31 V
+-3 2 V
+-40 34 V
+-3 3 V
+-36 32 V
+-9 8 V
+-31 27 V
+-14 13 V
+-26 23 V
+-17 16 V
+-22 20 V
+-21 20 V
+-19 17 V
+-24 23 V
+-16 15 V
+-25 24 V
+-14 14 V
+-27 26 V
+-13 13 V
+-27 27 V
+-12 12 V
+-27 27 V
+-13 13 V
+-26 27 V
+-14 14 V
+-24 25 V
+-15 16 V
+-23 24 V
+-17 19 V
+-20 21 V
+-20 22 V
+-16 17 V
+-23 26 V
+-13 14 V
+-27 31 V
+-8 9 V
+-32 36 V
+-3 3 V
+-34 40 V
+-2 3 V
+-31 37 V
+-9 10 V
+-24 29 V
+-16 19 V
+-17 21 V
+-22 28 V
+-10 12 V
+-30 38 V
+-1 1 V
+-31 40 V
+-8 10 V
+-22 30 V
+-17 22 V
+-13 17 V
+-27 36 V
+5393 4467 M
+-5 5 V
+-35 37 V
+-2 2 V
+-37 39 V
+-1 1 V
+-39 40 V
+-39 39 V
+-1 1 V
+-39 39 V
+-40 39 V
+-1 1 V
+-39 37 V
+-2 2 V
+-37 35 V
+-5 5 V
+2952 863 M
+-18 13 V
+-37 27 V
+-2 2 V
+-40 29 V
+-11 8 V
+-29 22 V
+-24 18 V
+-15 12 V
+-36 28 V
+-4 3 V
+-40 31 V
+-6 5 V
+-33 27 V
+-17 13 V
+-23 19 V
+-25 21 V
+-15 12 V
+-32 27 V
+-7 6 V
+-40 34 V
+-40 35 V
+-5 5 V
+-34 30 V
+-11 9 V
+-29 27 V
+-15 13 V
+-25 23 V
+-18 17 V
+-21 20 V
+-21 19 V
+-19 18 V
+-22 22 V
+-18 16 V
+-23 24 V
+-16 15 V
+-24 24 V
+-16 16 V
+-24 24 V
+-15 16 V
+-24 23 V
+-16 18 V
+-22 22 V
+-18 19 V
+-19 21 V
+-20 21 V
+-17 18 V
+-23 25 V
+-13 15 V
+-27 29 V
+-9 11 V
+-30 34 V
+stroke 1864 1849 M
+-5 5 V
+-35 40 V
+-34 40 V
+-6 7 V
+-27 32 V
+-12 15 V
+-21 25 V
+-19 23 V
+-13 17 V
+-27 33 V
+-5 6 V
+-31 40 V
+-3 4 V
+-28 36 V
+-12 15 V
+-18 24 V
+-22 29 V
+-8 11 V
+-29 40 V
+-2 2 V
+-27 37 V
+-13 18 V
+5393 4378 M
+-13 14 V
+-27 29 V
+-10 11 V
+-29 32 V
+-8 8 V
+-32 33 V
+-6 6 V
+-34 35 V
+-5 5 V
+-34 35 V
+-5 5 V
+-35 34 V
+-5 5 V
+-35 34 V
+-6 6 V
+-33 32 V
+-8 8 V
+-32 29 V
+-11 10 V
+-29 27 V
+-14 13 V
+3059 863 M
+-6 4 V
+-39 28 V
+-12 8 V
+-28 20 V
+-27 19 V
+-13 9 V
+-39 29 V
+-3 2 V
+-37 28 V
+-15 12 V
+-25 18 V
+-27 21 V
+-12 10 V
+-39 30 V
+-1 1 V
+-40 31 V
+-9 8 V
+-30 24 V
+-18 15 V
+-22 18 V
+-26 22 V
+-14 11 V
+-33 29 V
+-6 5 V
+-39 34 V
+-1 1 V
+-40 35 V
+-4 4 V
+-35 31 V
+-9 9 V
+-31 28 V
+-12 11 V
+-28 25 V
+-15 15 V
+-24 23 V
+-18 17 V
+-22 21 V
+-18 18 V
+-22 21 V
+-19 19 V
+-20 20 V
+-19 19 V
+-21 22 V
+-18 18 V
+-21 22 V
+-17 18 V
+-23 24 V
+-15 15 V
+-25 28 V
+-11 12 V
+-28 31 V
+-9 9 V
+-31 35 V
+-4 4 V
+-35 40 V
+-1 1 V
+-34 39 V
+-5 6 V
+-29 33 V
+-11 14 V
+-22 26 V
+-18 22 V
+-15 18 V
+-24 30 V
+-8 9 V
+-31 40 V
+-1 1 V
+-30 39 V
+-10 12 V
+-21 27 V
+-18 25 V
+-12 15 V
+-28 37 V
+-2 3 V
+-29 39 V
+-9 13 V
+-19 27 V
+-20 28 V
+-8 12 V
+-28 39 V
+-4 6 V
+5393 4286 M
+-24 27 V
+-16 18 V
+-20 22 V
+-19 21 V
+-18 18 V
+-22 24 V
+-15 16 V
+-25 26 V
+-13 14 V
+-26 27 V
+-13 12 V
+-27 28 V
+-12 12 V
+-28 27 V
+-12 13 V
+-27 26 V
+-14 13 V
+-26 25 V
+-16 15 V
+-24 22 V
+-18 18 V
+-21 19 V
+-22 20 V
+-18 16 V
+-27 24 V
+3174 863 M
+-2 1 V
+-39 26 V
+-19 13 V
+-21 14 V
+-37 25 V
+-3 2 V
+-39 28 V
+-14 10 V
+-26 18 V
+-29 22 V
+-11 7 V
+-39 29 V
+-4 3 V
+-36 27 V
+-16 13 V
+-24 18 V
+-28 22 V
+-11 9 V
+-39 30 V
+-1 1 V
+-40 32 V
+-8 7 V
+-31 26 V
+-17 14 V
+-23 19 V
+-24 20 V
+-16 14 V
+-30 26 V
+-9 8 V
+-36 32 V
+-4 3 V
+-40 35 V
+0 1 V
+-39 36 V
+-5 4 V
+-35 33 V
+-7 7 V
+-33 30 V
+-9 9 V
+-30 29 V
+-11 11 V
+-29 28 V
+-11 11 V
+-29 29 V
+-11 11 V
+-28 29 V
+-11 11 V
+-29 30 V
+-9 9 V
+-30 33 V
+-7 7 V
+-33 35 V
+-4 5 V
+-36 39 V
+-1 0 V
+-35 40 V
+-3 4 V
+-32 36 V
+-8 9 V
+-26 30 V
+-14 16 V
+-20 24 V
+-19 23 V
+-14 17 V
+-26 31 V
+-7 8 V
+-32 40 V
+-1 1 V
+-30 39 V
+-9 11 V
+-22 28 V
+-18 24 V
+-13 16 V
+-27 36 V
+-3 4 V
+-29 39 V
+-7 11 V
+-22 29 V
+-18 26 V
+-10 14 V
+-28 39 V
+-2 3 V
+-25 37 V
+-14 21 V
+-13 19 V
+-26 39 V
+-1 2 V
+5393 4190 M
+-3 4 V
+-35 40 V
+-2 2 V
+-34 37 V
+-5 7 V
+-31 33 V
+-9 10 V
+-27 30 V
+stroke 5247 4353 M
+-13 13 V
+-25 26 V
+-14 16 V
+-24 24 V
+-16 17 V
+-23 23 V
+-17 17 V
+-22 22 V
+-17 17 V
+-23 23 V
+-17 16 V
+-24 24 V
+-16 14 V
+-26 25 V
+-13 13 V
+-30 27 V
+-10 9 V
+-33 31 V
+-7 5 V
+-37 34 V
+-2 2 V
+-40 35 V
+-4 3 V
+3296 863 M
+-5 3 V
+-39 25 V
+-18 12 V
+-22 14 V
+-39 25 V
+-1 1 V
+-39 26 V
+-19 13 V
+-21 14 V
+-37 26 V
+-3 2 V
+-39 28 V
+-14 9 V
+-26 19 V
+-28 21 V
+-12 9 V
+-39 29 V
+-2 2 V
+-38 28 V
+-14 11 V
+-26 20 V
+-25 20 V
+-14 11 V
+-35 29 V
+-5 3 V
+-40 33 V
+-4 3 V
+-35 30 V
+-12 10 V
+-28 24 V
+-19 16 V
+-21 18 V
+-24 21 V
+-15 14 V
+-30 26 V
+-10 9 V
+-33 31 V
+-7 5 V
+-36 34 V
+-3 3 V
+-39 37 V
+-1 1 V
+-40 38 V
+-39 39 V
+-2 1 V
+-38 38 V
+-1 2 V
+-39 39 V
+-38 40 V
+-1 1 V
+-37 39 V
+-3 3 V
+-34 36 V
+-5 7 V
+-31 33 V
+-9 10 V
+-26 30 V
+-14 15 V
+-21 24 V
+-18 21 V
+-16 19 V
+-24 28 V
+-10 12 V
+-30 35 V
+-3 4 V
+-33 40 V
+-3 5 V
+-29 35 V
+-11 14 V
+-20 25 V
+-20 26 V
+-11 14 V
+-28 38 V
+-2 2 V
+-29 39 V
+-9 12 V
+-21 28 V
+-19 26 V
+-9 14 V
+-28 39 V
+-2 3 V
+-26 37 V
+-14 21 V
+-13 19 V
+-26 39 V
+-1 1 V
+-25 39 V
+-14 22 V
+-12 18 V
+-25 39 V
+-3 5 V
+5393 4089 M
+-22 26 V
+-18 21 V
+-16 18 V
+-23 27 V
+-12 13 V
+-28 32 V
+-7 8 V
+-33 36 V
+-3 3 V
+-36 40 V
+-1 0 V
+-37 40 V
+-2 2 V
+-36 37 V
+-4 4 V
+-35 36 V
+-4 4 V
+-36 36 V
+-4 4 V
+-36 35 V
+-4 4 V
+-37 36 V
+-2 2 V
+-40 37 V
+0 1 V
+-40 36 V
+-3 3 V
+-36 33 V
+-8 7 V
+-32 28 V
+-13 12 V
+-27 23 V
+-18 16 V
+-21 18 V
+-26 22 V
+1479 2806 M
+-12 20 V
+3430 863 M
+-20 12 V
+-39 23 V
+-8 5 V
+-32 20 V
+-32 19 V
+-8 5 V
+-39 25 V
+-15 10 V
+-25 16 V
+-36 24 V
+-4 2 V
+-39 27 V
+-15 10 V
+-25 17 V
+-33 23 V
+-7 5 V
+-39 28 V
+-9 7 V
+-31 22 V
+-23 17 V
+-17 13 V
+-36 27 V
+-3 3 V
+-40 30 V
+-8 7 V
+-32 25 V
+-18 14 V
+-21 17 V
+-28 23 V
+-12 10 V
+-36 30 V
+-4 3 V
+-39 33 V
+-4 3 V
+-36 31 V
+-10 9 V
+-30 26 V
+-15 14 V
+-24 22 V
+-19 17 V
+-21 19 V
+-23 21 V
+-17 16 V
+-25 23 V
+-14 14 V
+-27 26 V
+-13 13 V
+-28 27 V
+-12 12 V
+-27 27 V
+-12 12 V
+-27 28 V
+-13 13 V
+-26 27 V
+-14 14 V
+-23 25 V
+-16 17 V
+-21 23 V
+-19 21 V
+-17 19 V
+-22 24 V
+-14 15 V
+-26 30 V
+-9 10 V
+-31 36 V
+-3 4 V
+-33 39 V
+-3 4 V
+-30 36 V
+-10 12 V
+-23 28 V
+-17 21 V
+-14 18 V
+-25 32 V
+-7 8 V
+-30 40 V
+-3 3 V
+-27 36 V
+-13 17 V
+-17 23 V
+-22 31 V
+-7 9 V
+-28 39 V
+-5 7 V
+-23 33 V
+-17 25 V
+-10 15 V
+-27 39 V
+-2 4 V
+-24 36 V
+-16 25 V
+-10 15 V
+-25 39 V
+-5 8 V
+-19 32 V
+stroke 1527 2727 M
+-20 32 V
+-5 8 V
+-23 39 V
+5393 3982 M
+-11 14 V
+-29 34 V
+-4 6 V
+-34 39 V
+-1 2 V
+-33 38 V
+-7 8 V
+-27 31 V
+-13 14 V
+-23 26 V
+-16 18 V
+-20 22 V
+-20 22 V
+-17 17 V
+-23 25 V
+-14 15 V
+-25 26 V
+-13 14 V
+-27 27 V
+-12 12 V
+-28 28 V
+-12 12 V
+-27 27 V
+-14 13 V
+-26 25 V
+-15 14 V
+-25 23 V
+-17 17 V
+-22 20 V
+-22 20 V
+-18 16 V
+-26 23 V
+-14 13 V
+-31 27 V
+-8 7 V
+-38 33 V
+-2 1 V
+-39 34 V
+-6 4 V
+-34 29 V
+-14 11 V
+1586 2766 M
+0 1 V
+-24 39 V
+-16 27 V
+-7 13 V
+-23 39 V
+-9 17 V
+-13 23 V
+-22 40 V
+-5 9 V
+3578 863 M
+-9 5 V
+-40 22 V
+-23 13 V
+-17 9 V
+-39 23 V
+-13 7 V
+-27 16 V
+-39 24 V
+-1 0 V
+-39 24 V
+-25 16 V
+-15 9 V
+-39 25 V
+-8 5 V
+-32 21 V
+-28 19 V
+-12 8 V
+-39 27 V
+-8 5 V
+-32 22 V
+-24 17 V
+-16 11 V
+-39 29 V
+-40 29 V
+-14 11 V
+-26 19 V
+-26 20 V
+-13 11 V
+-38 29 V
+-2 2 V
+-40 31 V
+-8 7 V
+-31 25 V
+-17 14 V
+-23 19 V
+-24 21 V
+-16 13 V
+-31 27 V
+-8 7 V
+-37 32 V
+-3 3 V
+-40 35 V
+-1 2 V
+-38 34 V
+-6 5 V
+-34 32 V
+-8 8 V
+-32 30 V
+-10 10 V
+-29 28 V
+-11 11 V
+-29 29 V
+-11 11 V
+-29 29 V
+-11 11 V
+-28 29 V
+-10 10 V
+-30 32 V
+-8 8 V
+-32 34 V
+-5 6 V
+-34 38 V
+-2 1 V
+-35 40 V
+-3 3 V
+-32 37 V
+-7 8 V
+-27 31 V
+-13 16 V
+-21 24 V
+-19 23 V
+-14 17 V
+-25 31 V
+-7 8 V
+-31 40 V
+-2 2 V
+-29 38 V
+-11 13 V
+-20 26 V
+-19 26 V
+-11 14 V
+-29 40 V
+-29 39 V
+-11 16 V
+-17 24 V
+-22 32 V
+-5 8 V
+-27 39 V
+-8 12 V
+-19 28 V
+-21 32 V
+-5 8 V
+-25 39 V
+-9 15 V
+-16 25 V
+-24 39 V
+5393 3868 M
+-7 9 V
+-32 40 V
+-1 1 V
+-31 38 V
+-8 11 V
+-24 29 V
+-16 19 V
+-18 21 V
+-22 25 V
+-12 14 V
+-27 32 V
+-7 8 V
+-33 36 V
+-3 3 V
+-36 40 V
+-1 1 V
+-36 39 V
+-3 4 V
+-34 35 V
+-6 6 V
+-33 34 V
+-7 7 V
+-32 33 V
+-7 7 V
+-33 32 V
+-7 7 V
+-34 33 V
+-6 6 V
+-35 34 V
+-4 3 V
+-39 36 V
+-1 1 V
+-40 36 V
+-3 3 V
+-36 33 V
+-8 7 V
+-32 27 V
+-14 12 V
+-25 22 V
+-21 18 V
+-19 16 V
+-29 24 V
+-11 8 V
+-38 31 V
+-1 1 V
+-40 32 V
+-9 7 V
+1705 2714 M
+-8 13 V
+-25 40 V
+-7 11 V
+-16 28 V
+-23 39 V
+-1 1 V
+-23 39 V
+-16 29 V
+-6 11 V
+-22 40 V
+-12 22 V
+-9 17 V
+-21 40 V
+-9 19 V
+-11 21 V
+-19 39 V
+-10 20 V
+3747 863 M
+-20 10 V
+-39 19 V
+-21 11 V
+-19 9 V
+-40 21 V
+-17 9 V
+-22 12 V
+-40 22 V
+-11 6 V
+-29 16 V
+-39 23 V
+-1 1 V
+-39 23 V
+-28 16 V
+-11 7 V
+-40 25 V
+-13 8 V
+-27 17 V
+-35 23 V
+-4 3 V
+-40 26 V
+-16 10 V
+-24 16 V
+-34 24 V
+-5 4 V
+-40 28 V
+-11 8 V
+-29 20 V
+-26 19 V
+-13 10 V
+stroke 3014 1309 M
+-40 30 V
+-40 30 V
+-12 10 V
+-27 21 V
+-23 18 V
+-17 13 V
+-33 27 V
+-7 6 V
+-39 32 V
+-2 2 V
+-38 32 V
+-9 7 V
+-31 27 V
+-14 13 V
+-25 22 V
+-20 17 V
+-20 18 V
+-24 22 V
+-16 15 V
+-27 25 V
+-12 12 V
+-30 27 V
+-10 10 V
+-31 30 V
+-9 9 V
+-31 31 V
+-8 8 V
+-31 31 V
+-9 9 V
+-30 31 V
+-10 10 V
+-27 30 V
+-12 12 V
+-25 27 V
+-15 16 V
+-22 24 V
+-18 20 V
+-17 20 V
+-22 25 V
+-13 14 V
+-27 31 V
+-7 9 V
+-32 38 V
+-2 2 V
+-32 39 V
+-6 7 V
+-27 33 V
+-13 17 V
+-18 23 V
+-21 27 V
+-10 12 V
+-30 40 V
+-30 40 V
+-10 13 V
+-19 26 V
+-20 29 V
+-8 11 V
+-28 40 V
+-4 5 V
+-24 34 V
+-16 24 V
+-10 16 V
+-26 40 V
+-3 4 V
+-23 35 V
+-17 27 V
+5393 3745 M
+-10 13 V
+-30 40 V
+-30 39 V
+-9 12 V
+-23 28 V
+-17 21 V
+-15 19 V
+-25 30 V
+-7 9 V
+-32 39 V
+-1 1 V
+-34 40 V
+-5 5 V
+-30 34 V
+-10 11 V
+-26 29 V
+-13 15 V
+-23 24 V
+-17 19 V
+-20 21 V
+-20 21 V
+-18 19 V
+-21 22 V
+-17 17 V
+-23 23 V
+-17 17 V
+-23 23 V
+-17 17 V
+-22 21 V
+-19 18 V
+-21 20 V
+-21 20 V
+-19 17 V
+-24 23 V
+-15 13 V
+-29 26 V
+-11 10 V
+-34 30 V
+-5 5 V
+-40 34 V
+-1 1 V
+-39 32 V
+-9 7 V
+-30 25 V
+-19 15 V
+-21 17 V
+-28 23 V
+-12 9 V
+-39 30 V
+-40 30 V
+-13 10 V
+1839 2648 M
+-15 22 V
+-11 17 V
+-26 40 V
+-3 5 V
+-21 35 V
+-18 29 V
+-6 10 V
+-24 40 V
+-10 17 V
+-13 22 V
+-22 40 V
+-5 8 V
+-17 32 V
+-22 39 V
+0 2 V
+-20 38 V
+-20 39 V
+0 1 V
+-20 39 V
+-19 40 V
+-1 1 V
+-17 39 V
+-18 39 V
+-4 9 V
+-14 31 V
+-17 40 V
+-9 23 V
+3949 863 M
+-23 9 V
+-40 17 V
+-31 14 V
+-9 4 V
+-39 18 V
+-39 17 V
+-1 1 V
+-40 19 V
+-39 20 V
+-1 0 V
+-39 20 V
+-38 20 V
+-2 0 V
+-39 22 V
+-32 17 V
+-8 5 V
+-40 22 V
+-22 13 V
+-17 10 V
+-40 24 V
+-10 6 V
+-29 18 V
+-35 21 V
+-5 3 V
+-40 26 V
+-17 11 V
+-22 15 V
+-38 25 V
+-2 1 V
+-40 27 V
+-16 11 V
+-23 17 V
+-33 23 V
+-7 5 V
+-40 29 V
+-8 6 V
+-31 23 V
+-22 16 V
+-18 14 V
+-33 26 V
+-7 5 V
+-39 31 V
+-4 4 V
+-36 29 V
+-13 10 V
+-27 22 V
+-21 18 V
+-18 16 V
+-28 23 V
+-12 11 V
+-33 29 V
+-7 6 V
+-38 34 V
+-1 1 V
+-40 37 V
+-2 1 V
+-38 36 V
+-4 4 V
+-35 34 V
+-7 6 V
+-33 32 V
+-7 7 V
+-33 33 V
+-7 7 V
+-32 33 V
+-6 7 V
+-34 35 V
+-4 4 V
+-36 38 V
+-1 2 V
+-37 40 V
+-1 1 V
+-34 38 V
+-6 7 V
+-29 33 V
+-11 12 V
+-23 28 V
+-16 18 V
+-18 21 V
+-22 27 V
+-10 13 V
+-29 36 V
+-4 4 V
+-31 39 V
+-5 7 V
+-26 33 V
+-14 18 V
+-16 22 V
+-23 31 V
+-6 8 V
+-29 40 V
+-5 7 V
+-23 33 V
+-17 23 V
+-11 16 V
+-27 40 V
+-1 2 V
+-25 38 V
+1467 4789 M
+5393 3611 M
+-20 28 V
+-20 28 V
+stroke 5353 3667 M
+-8 12 V
+-29 39 V
+-2 3 V
+-28 37 V
+-12 15 V
+-19 25 V
+-21 26 V
+-10 13 V
+-29 37 V
+-3 3 V
+-32 40 V
+-5 5 V
+-29 34 V
+-11 13 V
+-23 27 V
+-16 19 V
+-18 21 V
+-22 24 V
+-14 15 V
+-26 28 V
+-10 12 V
+-29 31 V
+-8 8 V
+-32 33 V
+-6 7 V
+-34 34 V
+-5 6 V
+-34 34 V
+-6 5 V
+-34 34 V
+-7 6 V
+-33 32 V
+-8 8 V
+-31 29 V
+-12 10 V
+-28 26 V
+-15 14 V
+-24 22 V
+-21 18 V
+-19 16 V
+-27 23 V
+-13 11 V
+-34 29 V
+-5 5 V
+-40 32 V
+-3 3 V
+-37 29 V
+-13 10 V
+-26 21 V
+-25 19 V
+-15 12 V
+-37 28 V
+-3 2 V
+-39 29 V
+-12 8 V
+-28 20 V
+-28 20 V
+5393 863 M
+2016 2529 M
+-28 39 V
+-5 8 V
+-23 32 V
+-17 26 V
+-9 14 V
+-27 39 V
+-4 7 V
+-21 33 V
+-18 29 V
+-7 11 V
+-24 39 V
+-9 15 V
+-15 25 V
+-23 39 V
+-2 3 V
+-21 37 V
+-18 34 V
+-4 6 V
+-21 39 V
+-15 29 V
+-6 11 V
+-20 40 V
+-14 28 V
+-5 11 V
+-19 40 V
+-15 32 V
+-4 8 V
+-18 39 V
+-17 40 V
+-1 2 V
+-16 38 V
+-16 39 V
+-8 21 V
+-7 19 V
+-15 40 V
+-14 39 V
+-3 9 V
+-11 31 V
+-13 40 V
+-12 39 V
+-4 12 V
+4215 863 M
+-12 4 V
+-39 12 V
+-40 13 V
+-31 11 V
+-9 3 V
+-39 14 V
+-40 15 V
+-19 7 V
+-21 8 V
+-39 16 V
+-38 16 V
+-2 1 V
+-40 17 V
+-39 18 V
+-8 4 V
+-32 15 V
+-40 19 V
+-11 5 V
+-28 14 V
+-40 20 V
+-11 6 V
+-29 15 V
+-39 21 V
+-6 4 V
+-34 18 V
+-37 21 V
+-3 2 V
+-39 23 V
+-25 15 V
+-15 9 V
+-39 24 V
+-11 7 V
+-29 18 V
+-33 21 V
+-7 4 V
+-39 27 V
+-14 9 V
+-26 17 V
+-32 23 V
+-8 5 V
+-39 28 V
+-9 6 V
+-31 22 V
+-24 18 V
+-16 12 V
+-37 28 V
+-2 2 V
+-40 30 V
+-9 7 V
+-31 25 V
+-19 15 V
+-20 17 V
+-28 22 V
+-12 10 V
+-35 30 V
+-5 4 V
+-39 34 V
+-3 2 V
+-37 33 V
+-7 6 V
+-33 30 V
+-11 10 V
+-28 26 V
+-15 14 V
+-25 23 V
+-17 16 V
+-23 23 V
+-18 17 V
+-21 22 V
+-18 18 V
+-22 21 V
+-17 18 V
+-23 23 V
+-16 17 V
+-23 25 V
+-14 15 V
+-26 28 V
+-10 11 V
+-30 33 V
+-6 7 V
+-33 37 V
+-2 3 V
+-34 39 V
+-4 5 V
+-30 35 V
+-10 12 V
+-22 28 V
+-17 20 V
+-15 19 V
+-25 31 V
+-7 9 V
+-30 40 V
+-2 2 V
+-28 37 V
+-12 16 V
+-18 24 V
+-22 31 V
+-6 9 V
+3377 934 R
+-11 17 V
+-27 40 V
+-2 3 V
+-25 37 V
+-14 21 V
+-13 18 V
+-27 38 V
+-2 2 V
+-29 40 V
+-9 12 V
+-20 27 V
+-19 25 V
+-12 15 V
+-28 36 V
+-3 4 V
+-32 39 V
+-5 6 V
+-27 34 V
+-12 14 V
+-22 26 V
+-18 21 V
+-16 18 V
+-24 27 V
+-11 13 V
+-28 32 V
+-7 8 V
+-33 35 V
+-4 4 V
+-36 38 V
+-1 2 V
+-38 39 V
+-40 40 V
+-40 40 V
+-39 38 V
+-2 1 V
+-38 36 V
+-4 4 V
+-35 33 V
+-8 7 V
+-32 28 V
+-13 11 V
+-27 24 V
+-18 16 V
+-21 18 V
+-26 22 V
+-14 12 V
+-34 27 V
+-6 5 V
+-39 32 V
+stroke 4402 4548 M
+-4 3 V
+-36 28 V
+-15 12 V
+-25 19 V
+-27 20 V
+-12 9 V
+-40 29 V
+-2 2 V
+-38 27 V
+-18 13 V
+-21 14 V
+-37 25 V
+-3 2 V
+-40 27 V
+-17 11 V
+1533 4591 M
+13 39 V
+0 1 V
+15 39 V
+16 40 V
+9 20 V
+9 19 V
+20 40 V
+2657 1911 M
+-24 23 V
+-16 16 V
+-24 23 V
+-16 16 V
+-23 24 V
+-16 16 V
+-23 24 V
+-17 18 V
+-20 21 V
+-20 21 V
+-17 19 V
+-22 24 V
+-14 16 V
+-26 29 V
+-9 10 V
+-31 36 V
+-3 4 V
+-34 40 V
+-2 3 V
+-30 36 V
+-10 12 V
+-22 28 V
+-18 22 V
+-14 18 V
+-25 33 V
+-5 6 V
+-30 40 V
+-5 6 V
+-24 34 V
+-15 21 V
+-14 18 V
+-26 38 V
+-1 2 V
+-27 40 V
+-12 16 V
+-15 23 V
+-24 38 V
+-2 2 V
+-25 40 V
+-13 21 V
+-11 18 V
+-24 40 V
+-5 7 V
+-19 32 V
+-20 37 V
+-2 3 V
+-22 40 V
+-16 29 V
+-6 10 V
+-21 40 V
+-13 26 V
+-7 14 V
+-19 39 V
+-13 27 V
+-6 13 V
+-19 40 V
+-15 34 V
+-3 5 V
+-17 40 V
+-16 40 V
+-4 9 V
+-12 30 V
+-15 40 V
+-12 33 V
+-3 7 V
+-14 39 V
+-13 40 V
+-10 31 V
+-3 9 V
+-12 39 V
+-11 40 V
+-11 40 V
+-3 11 V
+-7 28 V
+-9 40 V
+-8 40 V
+-8 39 V
+-7 39 V
+-1 1 V
+-6 40 V
+-5 39 V
+-5 40 V
+-4 40 V
+-3 39 V
+-2 40 V
+-2 39 V
+0 40 V
+0 40 V
+2 39 V
+2 40 V
+4 40 V
+4 39 V
+6 40 V
+7 40 V
+3 12 V
+6 27 V
+9 40 V
+11 40 V
+5393 1011 M
+-40 -20 V
+-19 -9 V
+-20 -9 V
+-40 -16 V
+-39 -15 V
+-1 0 V
+-39 -13 V
+-40 -11 V
+-40 -9 V
+-27 -6 V
+-12 -3 V
+-40 -7 V
+-40 -6 V
+-39 -4 V
+-40 -4 V
+-40 -2 V
+-39 -2 V
+-40 0 V
+-40 0 V
+-39 2 V
+-40 2 V
+-39 3 V
+-40 4 V
+-40 5 V
+-39 5 V
+-40 6 V
+-1 1 V
+-39 7 V
+-39 8 V
+-40 8 V
+-40 9 V
+-28 7 V
+-11 3 V
+-40 11 V
+-40 11 V
+-39 12 V
+-9 3 V
+-31 10 V
+-40 13 V
+-39 14 V
+-7 3 V
+-33 12 V
+-40 15 V
+-30 12 V
+-9 4 V
+-40 16 V
+-40 17 V
+-5 3 V
+-34 15 V
+-40 19 V
+-13 6 V
+-27 13 V
+-39 19 V
+-14 7 V
+-26 13 V
+-40 21 V
+-10 6 V
+-29 16 V
+-40 22 V
+-3 2 V
+-37 20 V
+-32 19 V
+-7 5 V
+-40 24 V
+-18 11 V
+-21 13 V
+-40 25 V
+-2 2 V
+-38 24 V
+-23 15 V
+-16 12 V
+-40 27 V
+-2 1 V
+-38 26 V
+-18 14 V
+-21 15 V
+-34 24 V
+-6 5 V
+-40 30 V
+-6 5 V
+-33 25 V
+-18 14 V
+-22 18 V
+-28 22 V
+-12 10 V
+-36 30 V
+-3 2 V
+-40 34 V
+-4 3 V
+-36 31 V
+-10 9 V
+-29 26 V
+-16 14 V
+-24 22 V
+-19 17 V
+-21 20 V
+-21 20 V
+-18 17 V
+5393 3294 M
+-16 28 V
+-24 38 V
+0 1 V
+-25 40 V
+-14 22 V
+-11 18 V
+-26 39 V
+-3 4 V
+-24 36 V
+-16 22 V
+-12 18 V
+-27 39 V
+-1 0 V
+-29 40 V
+-10 14 V
+-19 26 V
+-21 26 V
+-9 13 V
+-30 38 V
+-1 2 V
+-32 40 V
+-7 8 V
+-26 31 V
+-14 17 V
+-19 23 V
+-20 23 V
+-15 17 V
+stroke 4942 3917 M
+-25 28 V
+-10 11 V
+-30 33 V
+-5 7 V
+-34 36 V
+-3 4 V
+-37 38 V
+-1 1 V
+-39 40 V
+-39 39 V
+-40 39 V
+-1 1 V
+-38 37 V
+-4 3 V
+-36 34 V
+-7 5 V
+-33 30 V
+-11 10 V
+-28 25 V
+-17 15 V
+-23 20 V
+-23 19 V
+-17 14 V
+-31 26 V
+-8 7 V
+-40 32 V
+-2 1 V
+-38 30 V
+-13 9 V
+-26 21 V
+-26 19 V
+-14 10 V
+-40 29 V
+0 1 V
+-39 27 V
+-18 12 V
+-22 16 V
+-36 24 V
+-4 3 V
+-39 26 V
+-18 11 V
+-22 14 V
+-40 25 V
+-1 0 V
+-38 24 V
+-28 16 V
+1734 4710 M
+11 18 V
+13 21 V
+26 40 V
+2673 2013 M
+-16 16 V
+-24 24 V
+-16 16 V
+-23 23 V
+-17 18 V
+-21 22 V
+-18 20 V
+-19 20 V
+-21 23 V
+-15 16 V
+-25 28 V
+-10 12 V
+-29 34 V
+-5 6 V
+-34 39 V
+-1 1 V
+-32 39 V
+-8 10 V
+-24 30 V
+-15 19 V
+-16 20 V
+-24 31 V
+-6 9 V
+-30 40 V
+-4 4 V
+-25 35 V
+-14 20 V
+-14 20 V
+-26 36 V
+-2 4 V
+-27 39 V
+-10 16 V
+-16 24 V
+-24 37 V
+-2 3 V
+-24 39 V
+-14 22 V
+-10 18 V
+-24 39 V
+-5 10 V
+-18 30 V
+-22 40 V
+-21 39 V
+-19 35 V
+-2 5 V
+-21 40 V
+-16 34 V
+-3 5 V
+-19 40 V
+-18 39 V
+0 1 V
+-18 39 V
+-17 40 V
+-5 12 V
+-11 28 V
+-16 39 V
+-12 34 V
+-3 6 V
+-14 40 V
+-14 39 V
+-9 29 V
+-4 11 V
+-12 40 V
+-11 39 V
+-11 40 V
+-2 6 V
+-8 34 V
+-10 39 V
+-8 40 V
+-8 40 V
+-5 29 V
+-2 10 V
+-6 40 V
+-6 40 V
+-4 39 V
+-4 40 V
+-3 40 V
+-2 39 V
+-1 40 V
+0 39 V
+1 40 V
+2 40 V
+3 39 V
+5 40 V
+5 40 V
+7 39 V
+5 22 V
+3 18 V
+10 40 V
+11 39 V
+13 40 V
+2 6 V
+13 34 V
+16 39 V
+11 23 V
+8 17 V
+21 40 V
+5393 1180 M
+-40 -26 V
+-21 -13 V
+-18 -11 V
+-40 -21 V
+-17 -8 V
+-23 -11 V
+-39 -16 V
+-34 -13 V
+-6 -2 V
+-40 -13 V
+-39 -11 V
+-40 -10 V
+-18 -3 V
+-22 -5 V
+-39 -7 V
+-40 -5 V
+-40 -5 V
+-39 -3 V
+-40 -2 V
+-40 -1 V
+-39 0 V
+-40 1 V
+-39 2 V
+-40 3 V
+-40 4 V
+-39 4 V
+-40 6 V
+-40 6 V
+-10 2 V
+-29 5 V
+-40 8 V
+-40 8 V
+-39 10 V
+-34 8 V
+-6 2 V
+-40 11 V
+-39 11 V
+-40 12 V
+-11 4 V
+-29 9 V
+-39 14 V
+-40 14 V
+-6 3 V
+-34 12 V
+-39 16 V
+-28 11 V
+-12 5 V
+-40 17 V
+-39 18 V
+-1 0 V
+-39 18 V
+-40 19 V
+-5 3 V
+-34 16 V
+-40 21 V
+-5 2 V
+-35 19 V
+-39 21 V
+-40 22 V
+-30 18 V
+-10 5 V
+-39 24 V
+-18 10 V
+-22 14 V
+-39 24 V
+-3 2 V
+-37 24 V
+-24 16 V
+-16 10 V
+-39 27 V
+-4 2 V
+-36 26 V
+-20 14 V
+-20 14 V
+-35 25 V
+-4 4 V
+-40 30 V
+-9 6 V
+-31 24 V
+-20 16 V
+-19 15 V
+-30 24 V
+-10 8 V
+-39 32 V
+-1 1 V
+-39 34 V
+-6 5 V
+-34 29 V
+-12 10 V
+-28 25 V
+-16 15 V
+-23 21 V
+-20 19 V
+-20 18 V
+-22 21 V
+-18 17 V
+-23 23 V
+5393 3093 M
+-16 30 V
+-20 40 V
+stroke 5357 3163 M
+-4 6 V
+-18 34 V
+-21 38 V
+-1 1 V
+-23 40 V
+-16 27 V
+-8 13 V
+-24 39 V
+-8 13 V
+-17 27 V
+-22 35 V
+-4 5 V
+-26 39 V
+-10 15 V
+-17 25 V
+-23 32 V
+-5 8 V
+-29 39 V
+-5 8 V
+-24 32 V
+-16 20 V
+-15 20 V
+-25 32 V
+-6 7 V
+-32 40 V
+-1 2 V
+-31 38 V
+-9 10 V
+-25 29 V
+-15 17 V
+-19 23 V
+-20 22 V
+-16 18 V
+-24 26 V
+-12 13 V
+-28 30 V
+-9 10 V
+-30 31 V
+-8 9 V
+-32 32 V
+-7 7 V
+-32 32 V
+-9 8 V
+-31 30 V
+-10 9 V
+-30 28 V
+-13 12 V
+-26 24 V
+-18 16 V
+-22 20 V
+-23 19 V
+-17 15 V
+-29 25 V
+-10 9 V
+-38 31 V
+-2 1 V
+-40 32 V
+-7 6 V
+-32 25 V
+-20 15 V
+-20 16 V
+-32 24 V
+-8 5 V
+-39 29 V
+-8 5 V
+-32 23 V
+-25 17 V
+-15 10 V
+-39 26 V
+-5 4 V
+-35 22 V
+-27 17 V
+-13 8 V
+-39 24 V
+-13 8 V
+-27 16 V
+-40 23 V
+-1 1 V
+-38 21 V
+-34 18 V
+-6 4 V
+-40 20 V
+-30 16 V
+1943 4742 M
+6 7 V
+34 37 V
+3 3 V
+2736 2076 M
+-16 16 V
+-24 24 V
+-16 16 V
+-23 24 V
+-15 16 V
+-25 26 V
+-12 13 V
+-28 30 V
+-9 10 V
+-30 34 V
+-5 6 V
+-35 39 V
+-34 40 V
+-6 7 V
+-26 33 V
+-13 15 V
+-19 24 V
+-21 26 V
+-11 14 V
+-29 37 V
+-1 3 V
+-30 39 V
+-8 12 V
+-21 28 V
+-19 27 V
+-9 13 V
+-27 39 V
+-4 5 V
+-23 35 V
+-16 25 V
+-9 15 V
+-26 39 V
+-5 8 V
+-19 32 V
+-20 34 V
+-4 5 V
+-23 40 V
+-13 24 V
+-9 16 V
+-22 39 V
+-9 17 V
+-12 23 V
+-20 40 V
+-7 15 V
+-13 24 V
+-18 40 V
+-9 19 V
+-10 21 V
+-17 39 V
+-13 30 V
+-4 10 V
+-16 40 V
+-15 39 V
+-4 12 V
+-11 28 V
+-14 40 V
+-13 39 V
+-2 7 V
+-10 33 V
+-12 40 V
+-11 39 V
+-7 26 V
+-3 14 V
+-10 40 V
+-8 39 V
+-8 40 V
+-7 40 V
+-3 20 V
+-3 19 V
+-5 40 V
+-5 40 V
+-3 39 V
+-3 40 V
+-1 40 V
+0 39 V
+0 40 V
+2 39 V
+3 40 V
+4 40 V
+5 39 V
+6 31 V
+1 9 V
+8 40 V
+10 39 V
+12 40 V
+8 26 V
+5 14 V
+15 39 V
+17 40 V
+3 6 V
+17 34 V
+22 39 V
+1 1 V
+24 39 V
+15 21 V
+14 19 V
+26 32 V
+5393 1382 M
+-3 -3 V
+-37 -34 V
+-7 -6 V
+-32 -26 V
+-19 -14 V
+-21 -15 V
+-39 -24 V
+-1 -1 V
+-39 -22 V
+-34 -17 V
+-6 -3 V
+-40 -17 V
+-39 -15 V
+-14 -5 V
+-26 -8 V
+-40 -12 V
+-39 -10 V
+-40 -8 V
+-9 -1 V
+-31 -6 V
+-39 -5 V
+-40 -4 V
+-40 -3 V
+-39 -2 V
+-40 0 V
+-39 0 V
+-40 1 V
+-40 3 V
+-39 3 V
+-40 5 V
+-40 5 V
+-19 3 V
+-20 3 V
+-40 7 V
+-40 8 V
+-39 8 V
+-40 10 V
+-14 3 V
+-26 7 V
+-39 11 V
+-40 12 V
+-33 10 V
+-7 2 V
+-39 13 V
+-40 14 V
+-28 11 V
+-12 4 V
+-39 15 V
+-40 16 V
+-10 4 V
+-30 13 V
+-39 17 V
+-21 10 V
+-19 9 V
+-40 18 V
+-24 13 V
+-15 7 V
+-40 20 V
+-23 12 V
+-17 9 V
+-39 22 V
+-16 9 V
+-24 13 V
+stroke 3529 1471 M
+-40 23 V
+-5 4 V
+-34 20 V
+-32 19 V
+-8 5 V
+-39 26 V
+-15 9 V
+-25 16 V
+-35 23 V
+-5 4 V
+-39 27 V
+-13 9 V
+-27 19 V
+-28 21 V
+-12 8 V
+-39 30 V
+-3 1 V
+-37 29 V
+-14 11 V
+-26 21 V
+-24 19 V
+-15 13 V
+-33 26 V
+-7 6 V
+-40 34 V
+-39 35 V
+-6 5 V
+-34 30 V
+-10 9 V
+-30 28 V
+-13 12 V
+-26 25 V
+-16 15 V
+-24 23 V
+714 2705 R
+-20 8 V
+5393 2826 M
+-8 20 V
+-15 39 V
+-17 40 V
+-17 40 V
+-18 39 V
+-4 10 V
+-14 30 V
+-20 40 V
+-6 12 V
+-14 27 V
+-21 40 V
+-5 9 V
+-16 31 V
+-23 39 V
+0 2 V
+-23 38 V
+-17 29 V
+-7 11 V
+-24 39 V
+-9 13 V
+-17 27 V
+-22 34 V
+-4 6 V
+-27 39 V
+-9 13 V
+-19 27 V
+-21 29 V
+-7 11 V
+-30 39 V
+-2 4 V
+-28 36 V
+-12 15 V
+-19 25 V
+-21 25 V
+-11 14 V
+-28 35 V
+-5 5 V
+-33 40 V
+-2 1 V
+-33 38 V
+-7 7 V
+-29 33 V
+-10 11 V
+-27 29 V
+-13 13 V
+-25 26 V
+-14 16 V
+-24 24 V
+-16 16 V
+-24 24 V
+-16 14 V
+-26 25 V
+-13 13 V
+-29 27 V
+-11 10 V
+-33 29 V
+-7 7 V
+-38 33 V
+-1 2 V
+-40 33 V
+-5 5 V
+-35 28 V
+-14 11 V
+-25 21 V
+-25 19 V
+-15 12 V
+-36 28 V
+-4 2 V
+-39 30 V
+-11 7 V
+-29 21 V
+-27 19 V
+-13 9 V
+-39 27 V
+-6 4 V
+-34 22 V
+-27 17 V
+-13 9 V
+-39 24 V
+-11 7 V
+-29 17 V
+-38 23 V
+-2 0 V
+-39 23 V
+-31 16 V
+-9 5 V
+-40 21 V
+-27 14 V
+-12 6 V
+-40 20 V
+-30 14 V
+-10 4 V
+-39 18 V
+-40 17 V
+-40 17 V
+-39 15 V
+2193 4749 M
+27 20 V
+32 20 V
+2815 2133 M
+-39 39 V
+-39 39 V
+-1 1 V
+-37 39 V
+-3 2 V
+-34 38 V
+-5 5 V
+-31 34 V
+-9 10 V
+-26 30 V
+-14 16 V
+-20 24 V
+-19 23 V
+-14 16 V
+-26 32 V
+-6 8 V
+-32 40 V
+-2 2 V
+-28 37 V
+-11 15 V
+-19 25 V
+-21 29 V
+-7 11 V
+-28 39 V
+-5 6 V
+-22 34 V
+-17 25 V
+-10 15 V
+-25 39 V
+-5 7 V
+-20 33 V
+-20 32 V
+-4 7 V
+-23 40 V
+-12 21 V
+-11 19 V
+-22 39 V
+-7 14 V
+-14 26 V
+-20 40 V
+-5 11 V
+-14 28 V
+-19 40 V
+-7 15 V
+-11 25 V
+-18 39 V
+-11 27 V
+-5 13 V
+-16 40 V
+-15 39 V
+-3 10 V
+-11 30 V
+-14 40 V
+-12 39 V
+-3 10 V
+-9 30 V
+-11 40 V
+-11 39 V
+-9 39 V
+0 1 V
+-9 40 V
+-7 39 V
+-7 40 V
+-6 40 V
+-5 39 V
+-4 40 V
+-1 22 V
+-2 18 V
+-2 39 V
+0 40 V
+0 40 V
+2 39 V
+2 30 V
+0 10 V
+4 39 V
+6 40 V
+7 40 V
+8 39 V
+11 40 V
+3 13 V
+9 27 V
+14 39 V
+16 40 V
+1 3 V
+17 37 V
+21 39 V
+2 3 V
+23 37 V
+16 25 V
+11 15 V
+29 36 V
+2 3 V
+37 40 V
+1 1 V
+39 37 V
+2 2 V
+38 30 V
+12 9 V
+5393 1648 M
+-20 -32 V
+-20 -27 V
+-9 -12 V
+-30 -38 V
+-2 -2 V
+-37 -39 V
+-1 -1 V
+-40 -37 V
+-3 -2 V
+-36 -29 V
+-15 -11 V
+-25 -16 V
+-37 -23 V
+stroke 5118 1379 M
+-3 -2 V
+-39 -21 V
+-37 -17 V
+-3 -1 V
+-40 -16 V
+-39 -14 V
+-27 -9 V
+-13 -3 V
+-40 -11 V
+-39 -8 V
+-40 -7 V
+-40 -6 V
+-39 -4 V
+-10 0 V
+-30 -2 V
+-39 -2 V
+-40 0 V
+-40 0 V
+-39 2 V
+-18 2 V
+-22 1 V
+-40 4 V
+-39 5 V
+-40 6 V
+-40 7 V
+-39 7 V
+-40 9 V
+-1 0 V
+-39 9 V
+-39 11 V
+-40 11 V
+-30 9 V
+-10 3 V
+-39 12 V
+-40 14 V
+-30 11 V
+-10 3 V
+-39 15 V
+-40 16 V
+-13 5 V
+-27 11 V
+-39 18 V
+-25 11 V
+-15 7 V
+-40 19 V
+-28 14 V
+-11 5 V
+-40 20 V
+-26 14 V
+-14 7 V
+-39 22 V
+-19 11 V
+-21 12 V
+-40 23 V
+-7 4 V
+-32 20 V
+-33 20 V
+-7 5 V
+-39 25 V
+-15 10 V
+-25 17 V
+-34 22 V
+-6 5 V
+-39 28 V
+-11 7 V
+-29 21 V
+-25 19 V
+-15 11 V
+-37 28 V
+-2 2 V
+-40 32 V
+-8 6 V
+-32 26 V
+-16 14 V
+-23 19 V
+-24 20 V
+-16 14 V
+-30 26 V
+-10 9 V
+-34 31 V
+-5 5 V
+-38 34 V
+-2 3 V
+-39 37 V
+-1 1 V
+2562 78 R
+-1 -39 V
+-4 -40 V
+-4 -40 V
+-6 -39 V
+-8 -40 V
+-1 -4 V
+-8 -36 V
+-12 -39 V
+-13 -40 V
+-6 -16 V
+-10 -24 V
+-18 -39 V
+-12 -22 V
+-10 -18 V
+-24 -40 V
+-6 -8 V
+-22 -31 V
+-17 -21 V
+-16 -19 V
+-24 -25 V
+-15 -15 V
+-25 -22 V
+-20 -17 V
+-19 -15 V
+-36 -25 V
+-4 -3 V
+-40 -23 V
+-24 -13 V
+-15 -8 V
+-40 -18 V
+-37 -14 V
+-3 -1 V
+-39 -13 V
+-40 -11 V
+-40 -9 V
+-28 -6 V
+-11 -2 V
+-40 -5 V
+-39 -5 V
+-40 -2 V
+-40 -2 V
+-39 0 V
+-40 1 V
+-40 2 V
+-39 3 V
+-40 5 V
+3767 4509 M
+40 -22 V
+27 -15 V
+12 -8 V
+40 -23 V
+15 -9 V
+25 -15 V
+38 -25 V
+1 0 V
+40 -26 V
+19 -13 V
+21 -14 V
+37 -26 V
+2 -2 V
+40 -28 V
+13 -10 V
+27 -20 V
+26 -19 V
+13 -11 V
+37 -29 V
+3 -2 V
+40 -32 V
+6 -6 V
+33 -27 V
+14 -12 V
+26 -23 V
+19 -17 V
+21 -18 V
+23 -21 V
+16 -15 V
+27 -25 V
+13 -13 V
+28 -27 V
+12 -11 V
+28 -28 V
+11 -12 V
+27 -28 V
+13 -13 V
+25 -27 V
+15 -16 V
+21 -23 V
+18 -21 V
+17 -19 V
+23 -26 V
+12 -14 V
+27 -33 V
+6 -6 V
+32 -40 V
+2 -3 V
+29 -37 V
+11 -13 V
+19 -26 V
+20 -27 V
+10 -13 V
+28 -40 V
+2 -2 V
+26 -37 V
+14 -21 V
+13 -19 V
+26 -40 V
+0 -1 V
+25 -38 V
+15 -25 V
+9 -15 V
+23 -40 V
+8 -12 V
+15 -27 V
+22 -40 V
+2 -5 V
+19 -35 V
+20 -39 V
+1 -3 V
+18 -37 V
+19 -40 V
+3 -6 V
+14 -33 V
+17 -40 V
+8 -20 V
+8 -20 V
+16 -39 V
+14 -40 V
+2 -5 V
+12 -34 V
+12 -40 V
+12 -40 V
+4 -12 V
+7 -27 V
+10 -40 V
+10 -40 V
+8 -39 V
+4 -25 V
+3 -15 V
+6 -40 V
+6 -39 V
+4 -40 V
+3 -40 V
+2 -39 V
+1 -40 V
+-1 -40 V
+2214 3123 M
+-19 40 V
+-14 32 V
+-4 8 V
+-17 39 V
+-16 40 V
+-3 8 V
+-12 32 V
+-15 39 V
+-12 37 V
+-2 3 V
+-12 40 V
+-13 39 V
+-11 40 V
+-2 9 V
+-8 31 V
+-9 39 V
+-9 40 V
+stroke 2036 3639 M
+-7 40 V
+-7 39 V
+-5 40 V
+-5 40 V
+-3 39 V
+-2 40 V
+-1 40 V
+0 39 V
+2 40 V
+2 40 V
+5 39 V
+5 40 V
+2 11 V
+6 28 V
+9 40 V
+11 40 V
+13 39 V
+1 3 V
+14 37 V
+18 40 V
+8 15 V
+13 24 V
+23 40 V
+3 4 V
+25 36 V
+15 19 V
+17 20 V
+22 25 V
+15 15 V
+25 24 V
+19 16 V
+21 17 V
+31 22 V
+8 6 V
+40 24 V
+18 10 V
+22 12 V
+39 18 V
+24 10 V
+16 6 V
+40 13 V
+39 12 V
+36 8 V
+4 1 V
+40 8 V
+39 6 V
+40 4 V
+40 4 V
+39 1 V
+40 1 V
+40 -1 V
+39 -2 V
+40 -3 V
+40 -4 V
+39 -6 V
+40 -6 V
+15 -3 V
+25 -4 V
+39 -8 V
+40 -10 V
+40 -10 V
+27 -7 V
+12 -4 V
+40 -12 V
+40 -12 V
+34 -12 V
+5 -2 V
+40 -14 V
+39 -16 V
+20 -8 V
+20 -8 V
+40 -17 V
+33 -14 V
+6 -3 V
+40 -19 V
+37 -18 V
+3 -1 V
+39 -20 V
+35 -19 V
+5 -2 V
+4362 1413 M
+-40 5 V
+-39 7 V
+-40 7 V
+-40 9 V
+-39 9 V
+-31 8 V
+-9 2 V
+-40 11 V
+-39 13 V
+-40 12 V
+-3 2 V
+-37 12 V
+-39 15 V
+-32 12 V
+-8 3 V
+-40 16 V
+-39 17 V
+-8 4 V
+-32 14 V
+-40 19 V
+-13 6 V
+-26 14 V
+-40 20 V
+-12 6 V
+-28 15 V
+-39 22 V
+-5 3 V
+-35 20 V
+-33 19 V
+-7 4 V
+-39 25 V
+-18 11 V
+-22 14 V
+-39 26 V
+-40 27 V
+-18 12 V
+-22 16 V
+-34 24 V
+-5 4 V
+-40 30 V
+-8 6 V
+-32 24 V
+-19 15 V
+-20 17 V
+-29 23 V
+-11 9 V
+-36 31 V
+-4 3 V
+-39 34 V
+-3 2 V
+-37 33 V
+-7 7 V
+-33 30 V
+-10 10 V
+-29 28 V
+-12 11 V
+-28 28 V
+-12 12 V
+-28 28 V
+-11 12 V
+-28 29 V
+-10 10 V
+-30 33 V
+-7 7 V
+-33 37 V
+-2 3 V
+-34 39 V
+-3 4 V
+-31 36 V
+-9 11 V
+-23 29 V
+-17 20 V
+-15 19 V
+-24 32 V
+-6 8 V
+-30 40 V
+-4 5 V
+-24 34 V
+-16 22 V
+-12 18 V
+-27 40 V
+-26 39 V
+-14 22 V
+-11 18 V
+-25 39 V
+-4 7 V
+-19 33 V
+-20 35 V
+-3 5 V
+-22 39 V
+-15 28 V
+-6 12 V
+-20 40 V
+-14 26 V
+-6 13 V
+4778 1616 M
+-20 -7 V
+-39 -12 V
+-40 -11 V
+-39 -8 V
+-7 -1 V
+-33 -5 V
+-40 -5 V
+-39 -3 V
+-40 -2 V
+-40 0 V
+-39 1 V
+-40 2 V
+-40 4 V
+-39 5 V
+-77 2501 R
+37 -31 V
+11 -8 V
+29 -25 V
+17 -15 V
+22 -20 V
+22 -20 V
+18 -16 V
+25 -23 V
+15 -14 V
+26 -26 V
+13 -13 V
+27 -27 V
+13 -13 V
+26 -26 V
+14 -15 V
+23 -25 V
+16 -18 V
+20 -22 V
+20 -22 V
+15 -17 V
+25 -29 V
+8 -11 V
+31 -37 V
+2 -3 V
+32 -39 V
+6 -8 V
+24 -32 V
+15 -21 V
+14 -19 V
+26 -35 V
+3 -4 V
+28 -40 V
+9 -14 V
+17 -26 V
+22 -34 V
+4 -5 V
+24 -40 V
+12 -19 V
+12 -21 V
+23 -39 V
+5 -9 V
+17 -31 V
+21 -40 V
+1 -2 V
+19 -37 V
+20 -40 V
+1 -3 V
+17 -37 V
+18 -39 V
+5 -13 V
+11 -27 V
+16 -40 V
+12 -33 V
+3 -6 V
+13 -40 V
+13 -39 V
+11 -36 V
+stroke 5155 2731 M
+1 -4 V
+11 -40 V
+10 -39 V
+9 -40 V
+8 -40 V
+1 -3 V
+6 -36 V
+6 -40 V
+4 -40 V
+4 -39 V
+2 -40 V
+1 -40 V
+-1 -39 V
+-2 -40 V
+-3 -40 V
+-5 -39 V
+-7 -40 V
+-5 -24 V
+-4 -16 V
+-11 -39 V
+-13 -40 V
+-12 -32 V
+-3 -8 V
+-19 -39 V
+-18 -34 V
+-3 -6 V
+-25 -40 V
+-11 -15 V
+-19 -24 V
+-21 -25 V
+-14 -15 V
+-26 -25 V
+-16 -15 V
+-23 -19 V
+-28 -20 V
+-12 -9 V
+-40 -24 V
+-12 -7 V
+-27 -14 V
+-40 -18 V
+-20 -8 V
+2242 3401 M
+-12 40 V
+-10 31 V
+-2 8 V
+-10 40 V
+-9 40 V
+-8 39 V
+-7 40 V
+-3 19 V
+-3 21 V
+-5 39 V
+-4 40 V
+-2 40 V
+-1 39 V
+0 40 V
+2 40 V
+3 39 V
+5 40 V
+5 33 V
+1 7 V
+8 39 V
+11 40 V
+12 39 V
+7 20 V
+8 20 V
+18 40 V
+14 27 V
+7 12 V
+24 40 V
+9 12 V
+20 28 V
+19 23 V
+15 16 V
+25 26 V
+15 14 V
+25 21 V
+24 19 V
+15 11 V
+40 25 V
+6 3 V
+34 18 V
+39 19 V
+8 3 V
+32 12 V
+40 13 V
+39 11 V
+16 4 V
+24 5 V
+40 7 V
+39 5 V
+40 3 V
+40 2 V
+39 1 V
+40 -1 V
+40 -2 V
+39 -4 V
+40 -4 V
+40 -6 V
+36 -6 V
+3 -1 V
+40 -8 V
+40 -9 V
+39 -10 V
+40 -11 V
+4 -1 V
+36 -11 V
+39 -13 V
+40 -13 V
+6 -3 V
+33 -12 V
+40 -16 V
+27 -11 V
+13 -5 V
+39 -18 V
+37 -17 V
+3 -1 V
+40 -20 V
+37 -19 V
+2 -1 V
+40 -21 V
+31 -17 V
+9 -5 V
+39 -23 V
+21 -12 V
+19 -12 V
+40 -24 V
+5 -4 V
+34 -22 V
+26 -17 V
+14 -9 V
+40 -28 V
+4 -3 V
+35 -26 V
+19 -14 V
+21 -15 V
+32 -24 V
+8 -6 V
+39 -32 V
+3 -2 V
+77 -2501 R
+-21 3 V
+-19 3 V
+-40 7 V
+-39 8 V
+-40 9 V
+-40 10 V
+-8 2 V
+-31 10 V
+-40 12 V
+-40 13 V
+-15 5 V
+-24 9 V
+-40 15 V
+-40 16 V
+-39 16 V
+-40 18 V
+-12 5 V
+-28 14 V
+-39 19 V
+-14 7 V
+-26 14 V
+-40 21 V
+-9 5 V
+-30 17 V
+-39 22 V
+-1 1 V
+-40 24 V
+-24 15 V
+-15 10 V
+-40 26 V
+-6 4 V
+-33 22 V
+-25 17 V
+-15 11 V
+-40 29 V
+-39 29 V
+-14 11 V
+-26 20 V
+-24 19 V
+-16 13 V
+-33 27 V
+-6 6 V
+-40 33 V
+0 1 V
+-40 35 V
+-5 4 V
+-34 32 V
+-9 8 V
+-31 29 V
+-11 11 V
+-29 28 V
+-11 11 V
+-28 29 V
+-11 11 V
+-29 31 V
+-8 9 V
+-32 34 V
+-4 5 V
+-35 40 V
+-1 0 V
+-33 40 V
+-6 6 V
+-27 33 V
+-13 16 V
+-19 24 V
+-20 26 V
+-11 14 V
+-29 39 V
+-29 40 V
+-11 15 V
+-17 25 V
+-22 33 V
+-4 6 V
+-26 40 V
+-10 15 V
+-15 24 V
+-24 40 V
+-1 1 V
+-22 39 V
+-17 30 V
+-5 9 V
+-21 40 V
+-14 26 V
+-7 14 V
+-19 39 V
+-14 28 V
+-5 12 V
+-18 40 V
+-16 39 V
+-16 40 V
+-15 40 V
+-9 24 V
+-5 15 V
+-13 40 V
+2399 40 R
+29 -40 V
+9 -13 V
+18 -27 V
+22 -32 V
+5 -7 V
+25 -40 V
+9 -15 V
+15 -25 V
+24 -39 V
+1 -3 V
+21 -37 V
+19 -35 V
+2 -5 V
+stroke 4840 3123 M
+20 -39 V
+17 -35 V
+3 -5 V
+18 -40 V
+17 -39 V
+2 -5 V
+14 -35 V
+15 -40 V
+11 -29 V
+4 -10 V
+12 -40 V
+12 -39 V
+11 -40 V
+10 -40 V
+8 -39 V
+8 -40 V
+6 -40 V
+5 -39 V
+3 -36 V
+0 -4 V
+2 -40 V
+1 -39 V
+-1 -40 V
+-2 -30 V
+-1 -10 V
+-4 -39 V
+-7 -40 V
+-8 -40 V
+-11 -39 V
+-9 -27 V
+-4 -13 V
+-16 -40 V
+-19 -38 V
+-1 -1 V
+-23 -40 V
+-16 -23 V
+-12 -17 V
+-28 -32 V
+-6 -7 V
+-33 -33 V
+-8 -7 V
+-32 -25 V
+-20 -15 V
+-20 -12 V
+-39 -23 V
+-9 -4 V
+-31 -15 V
+-39 -15 V
+-29 -10 V
+-11 -3 V
+-40 -10 V
+-39 -8 V
+-40 -6 V
+-40 -5 V
+-39 -2 V
+-40 -1 V
+-40 1 V
+-39 3 V
+-40 4 V
+-40 5 V
+-39 6 V
+-40 8 V
+2352 3877 M
+6 40 V
+8 39 V
+10 40 V
+3 11 V
+10 29 V
+15 39 V
+15 31 V
+4 9 V
+23 39 V
+12 20 V
+15 20 V
+25 32 V
+7 8 V
+33 33 V
+7 6 V
+32 28 V
+17 12 V
+23 16 V
+40 23 V
+1 1 V
+38 19 V
+40 16 V
+13 4 V
+27 9 V
+39 11 V
+40 8 V
+40 7 V
+39 4 V
+10 1 V
+30 2 V
+40 1 V
+39 -1 V
+40 -2 V
+4 0 V
+36 -3 V
+39 -5 V
+40 -6 V
+40 -8 V
+39 -8 V
+40 -10 V
+40 -11 V
+39 -12 V
+40 -12 V
+10 -4 V
+29 -11 V
+40 -15 V
+35 -14 V
+5 -2 V
+39 -17 V
+40 -18 V
+5 -3 V
+35 -17 V
+39 -20 V
+5 -2 V
+35 -19 V
+37 -21 V
+3 -1 V
+39 -24 V
+25 -15 V
+15 -9 V
+40 -25 V
+7 -5 V
+32 -22 V
+27 -18 V
+13 -9 V
+40 -29 V
+2 -1 V
+37 -29 V
+15 -11 V
+25 -19 V
+25 -21 V
+15 -11 V
+33 -28 V
+6 -6 V
+40 -34 V
+40 -36 V
+4 -4 V
+35 -33 V
+6 -6 V
+34 -33 V
+7 -7 V
+33 -34 V
+6 -6 V
+33 -35 V
+4 -4 V
+36 -40 V
+34 -40 V
+6 -6 V
+28 -33 V
+11 -15 V
+21 -25 V
+19 -25 V
+11 -15 V
+29 -37 V
+1 -2 V
+4124 1767 M
+-39 8 V
+-1 0 V
+-39 10 V
+-40 11 V
+-40 12 V
+-19 7 V
+-20 7 V
+-40 14 V
+-40 15 V
+-7 3 V
+-32 14 V
+-40 17 V
+-19 9 V
+-21 10 V
+-39 19 V
+-21 11 V
+-19 9 V
+-40 22 V
+-15 8 V
+-24 14 V
+-40 24 V
+-4 2 V
+-36 22 V
+-27 18 V
+-12 8 V
+-40 27 V
+-7 4 V
+-32 23 V
+-24 17 V
+-16 12 V
+-37 28 V
+-3 2 V
+-39 31 V
+-8 6 V
+-32 26 V
+-16 14 V
+-24 20 V
+-22 20 V
+-17 15 V
+-27 24 V
+-13 12 V
+-30 28 V
+-10 10 V
+-30 30 V
+-9 9 V
+-30 30 V
+-10 10 V
+-28 30 V
+-12 13 V
+-24 27 V
+-15 17 V
+-20 22 V
+-20 24 V
+-14 16 V
+-26 32 V
+-6 8 V
+-31 39 V
+-2 3 V
+-28 37 V
+-12 16 V
+-17 24 V
+-23 32 V
+-4 7 V
+-27 40 V
+-8 12 V
+-18 27 V
+-22 36 V
+-2 4 V
+-24 40 V
+-14 24 V
+-8 15 V
+-22 40 V
+-9 19 V
+-11 21 V
+-19 39 V
+-10 21 V
+-9 19 V
+-17 40 V
+-14 32 V
+-3 7 V
+-15 40 V
+-14 40 V
+-7 20 V
+-7 19 V
+-12 40 V
+-11 40 V
+-10 39 V
+0 1 V
+-8 39 V
+-8 40 V
+stroke 2363 3560 M
+-6 39 V
+-5 40 V
+-4 40 V
+-3 39 V
+-1 40 V
+1 40 V
+2 39 V
+5 40 V
+4830 2449 M
+-5 -39 V
+-7 -40 V
+-9 -40 V
+-11 -36 V
+-1 -3 V
+-16 -40 V
+-19 -40 V
+-4 -7 V
+-20 -32 V
+-19 -28 V
+-10 -12 V
+-30 -33 V
+-7 -7 V
+-32 -28 V
+-16 -11 V
+-24 -17 V
+-39 -23 V
+-1 0 V
+-39 -18 V
+-40 -15 V
+-21 -7 V
+-19 -5 V
+-39 -8 V
+-40 -7 V
+-40 -4 V
+-39 -2 V
+-40 0 V
+-40 2 V
+-39 3 V
+-40 5 V
+-40 7 V
+-39 8 V
+2776 4134 M
+32 20 V
+7 4 V
+40 19 V
+40 16 V
+3 1 V
+36 11 V
+40 9 V
+40 7 V
+39 5 V
+40 2 V
+40 0 V
+39 -1 V
+40 -3 V
+40 -5 V
+39 -6 V
+40 -8 V
+40 -9 V
+8 -2 V
+31 -8 V
+40 -12 V
+39 -13 V
+19 -7 V
+21 -7 V
+40 -16 V
+39 -16 V
+40 -18 V
+40 -19 V
+5 -3 V
+34 -18 V
+40 -21 V
+1 0 V
+39 -23 V
+28 -17 V
+11 -7 V
+40 -25 V
+12 -8 V
+28 -18 V
+30 -21 V
+9 -7 V
+40 -29 V
+6 -4 V
+34 -26 V
+17 -14 V
+22 -18 V
+26 -21 V
+14 -12 V
+32 -28 V
+8 -7 V
+36 -33 V
+3 -3 V
+38 -36 V
+2 -2 V
+38 -38 V
+2 -2 V
+36 -38 V
+3 -3 V
+33 -36 V
+7 -8 V
+28 -32 V
+12 -14 V
+21 -26 V
+18 -22 V
+14 -17 V
+26 -34 V
+4 -6 V
+29 -40 V
+7 -9 V
+21 -30 V
+18 -28 V
+8 -12 V
+25 -40 V
+7 -11 V
+17 -28 V
+23 -39 V
+0 -1 V
+21 -40 V
+18 -34 V
+3 -5 V
+19 -40 V
+18 -40 V
+16 -39 V
+16 -40 V
+7 -21 V
+7 -19 V
+13 -39 V
+12 -40 V
+8 -31 V
+2 -8 V
+9 -40 V
+8 -40 V
+6 -39 V
+5 -40 V
+3 -40 V
+1 -39 V
+0 -40 V
+-2 -40 V
+4045 1972 M
+-7 1 V
+-33 8 V
+-40 11 V
+-39 12 V
+-28 9 V
+-12 4 V
+-40 15 V
+-39 15 V
+-13 6 V
+-27 11 V
+-40 18 V
+-20 10 V
+-19 10 V
+-40 20 V
+-18 10 V
+-22 12 V
+-39 23 V
+-8 5 V
+-32 19 V
+-31 20 V
+-9 6 V
+-39 26 V
+-11 8 V
+-29 20 V
+-26 20 V
+-13 9 V
+-39 30 V
+-1 1 V
+-40 32 V
+-8 7 V
+-31 27 V
+-16 13 V
+-24 21 V
+-20 18 V
+-20 19 V
+-22 21 V
+-17 17 V
+-23 23 V
+-17 17 V
+-21 22 V
+-19 20 V
+-18 20 V
+-21 24 V
+-13 16 V
+-27 31 V
+-7 8 V
+-32 40 V
+-1 1 V
+-30 39 V
+-9 13 V
+-20 26 V
+-20 29 V
+-8 11 V
+-26 39 V
+-6 9 V
+-20 31 V
+-19 32 V
+-5 8 V
+-23 39 V
+-12 22 V
+-10 18 V
+-20 40 V
+-10 19 V
+-10 20 V
+-18 40 V
+-11 27 V
+-6 13 V
+-15 39 V
+-15 40 V
+-4 12 V
+-9 28 V
+-12 39 V
+-11 40 V
+-8 33 V
+-1 7 V
+-8 39 V
+-7 40 V
+-5 40 V
+-3 39 V
+-2 40 V
+0 40 V
+2 39 V
+4 40 V
+7 40 V
+8 39 V
+5 19 V
+7 21 V
+15 40 V
+18 39 V
+0 1 V
+23 39 V
+17 24 V
+11 16 V
+28 32 V
+7 7 V
+33 30 V
+12 10 V
+28 19 V
+793 -224 R
+39 -16 V
+40 -17 V
+1 0 V
+39 -19 V
+39 -20 V
+2 -1 V
+38 -21 V
+31 -18 V
+9 -6 V
+39 -25 V
+14 -9 V
+stroke 3860 3758 M
+26 -18 V
+31 -22 V
+9 -6 V
+39 -30 V
+5 -3 V
+35 -29 V
+13 -11 V
+27 -23 V
+19 -17 V
+20 -18 V
+22 -21 V
+18 -17 V
+23 -23 V
+17 -18 V
+21 -22 V
+18 -20 V
+17 -19 V
+23 -27 V
+11 -13 V
+29 -35 V
+3 -5 V
+30 -39 V
+6 -9 V
+22 -31 V
+18 -26 V
+9 -14 V
+25 -39 V
+6 -9 V
+18 -31 V
+21 -38 V
+1 -2 V
+20 -39 V
+19 -39 V
+0 -1 V
+17 -40 V
+16 -39 V
+7 -17 V
+8 -23 V
+12 -40 V
+11 -39 V
+8 -34 V
+1 -6 V
+8 -39 V
+5 -40 V
+4 -40 V
+1 -39 V
+-1 -40 V
+-4 -40 V
+-6 -39 V
+-8 -33 V
+-2 -7 V
+-13 -40 V
+-18 -39 V
+-6 -11 V
+-19 -29 V
+-21 -28 V
+-10 -12 V
+-30 -28 V
+-13 -11 V
+-26 -19 V
+-36 -21 V
+-4 -2 V
+-40 -17 V
+-39 -13 V
+-32 -8 V
+-8 -1 V
+-40 -6 V
+-39 -3 V
+-40 -1 V
+-40 2 V
+-39 4 V
+-36 5 V
+-4 1 V
+-40 8 V
+-39 10 V
+-40 11 V
+-32 10 V
+-8 3 V
+-39 14 V
+-40 16 V
+-14 7 V
+-26 11 V
+-39 19 V
+-18 9 V
+-22 12 V
+-40 22 V
+-9 6 V
+-30 18 V
+-34 22 V
+-6 3 V
+-40 28 V
+-12 8 V
+-27 20 V
+-26 20 V
+-14 11 V
+-36 29 V
+-3 3 V
+-40 34 V
+-3 2 V
+-37 34 V
+-6 6 V
+-33 33 V
+-7 7 V
+-33 33 V
+-6 6 V
+-34 37 V
+-2 3 V
+-34 40 V
+-3 3 V
+-29 36 V
+-11 14 V
+-20 26 V
+-20 27 V
+-8 12 V
+-28 40 V
+-3 6 V
+-22 34 V
+-18 30 V
+-6 9 V
+-22 40 V
+-12 22 V
+-9 18 V
+-19 39 V
+-11 26 V
+-7 14 V
+-16 40 V
+-14 39 V
+-3 8 V
+-10 32 V
+-11 40 V
+-10 39 V
+-8 40 V
+-1 4 V
+-5 36 V
+-4 39 V
+-2 40 V
+1 40 V
+3 39 V
+6 40 V
+1 8 V
+8 32 V
+13 39 V
+17 40 V
+2 4 V
+21 36 V
+19 26 V
+11 13 V
+28 30 V
+12 10 V
+28 21 V
+29 19 V
+11 6 V
+39 18 V
+40 13 V
+7 2 V
+33 8 V
+39 6 V
+40 4 V
+40 1 V
+39 -1 V
+40 -4 V
+40 -5 V
+39 -8 V
+6 -1 V
+34 -8 V
+39 -11 V
+40 -12 V
+23 -8 V
+17 -7 V
+4183 2687 M
+-19 -31 V
+-7 -8 V
+-33 -32 V
+-12 -8 V
+-28 -16 V
+-39 -15 V
+-38 -9 V
+-2 0 V
+-40 -3 V
+-39 0 V
+-27 3 V
+-13 2 V
+-40 8 V
+-39 10 V
+-40 14 V
+-15 6 V
+-25 10 V
+-39 19 V
+-21 11 V
+-19 10 V
+-40 24 V
+-7 5 V
+-32 22 V
+-25 18 V
+-15 11 V
+-34 29 V
+-6 4 V
+-39 35 V
+0 1 V
+-39 39 V
+-1 0 V
+-35 39 V
+-4 6 V
+-29 34 V
+-11 15 V
+-18 25 V
+-22 32 V
+-5 7 V
+-24 40 V
+-10 19 V
+-11 21 V
+-19 39 V
+-10 25 V
+-6 15 V
+-14 40 V
+-10 39 V
+-8 40 V
+-2 13 V
+-3 27 V
+0 39 V
+3 40 V
+0 2 V
+9 38 V
+15 39 V
+16 28 V
+8 12 V
+32 33 V
+8 7 V
+31 19 V
+40 17 V
+10 3 V
+30 7 V
+39 4 V
+40 0 V
+39 -3 V
+40 -7 V
+3 -1 V
+37 -9 V
+39 -13 V
+40 -16 V
+4 -1 V
+36 -17 V
+39 -21 V
+4 -2 V
+36 -22 V
+28 -18 V
+12 -8 V
+39 -29 V
+4 -2 V
+stroke 3850 3441 M
+36 -30 V
+12 -10 V
+28 -25 V
+15 -15 V
+24 -24 V
+15 -15 V
+25 -28 V
+10 -12 V
+30 -36 V
+2 -4 V
+29 -39 V
+8 -12 V
+18 -28 V
+22 -36 V
+2 -4 V
+21 -39 V
+17 -36 V
+1 -4 V
+16 -40 V
+13 -39 V
+9 -37 V
+1 -3 V
+7 -40 V
+3 -39 V
+0 -40 V
+-4 -39 V
+-7 -30 V
+-3 -10 V
+-17 -40 V
+% End plot #2
+% Begin plot #3
+1.000 UP
+stroke
+LTb
+0.94 0.89 0.26 C /Helvetica findfont 250 scalefont setfont
+3626 3022 Crs
+% End plot #3
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+1467 4789 N
+0 -3926 V
+3926 0 V
+0 3926 V
+-3926 0 V
+Z stroke
+stroke gsave	%% draw gray scale smooth box
+maxcolors 0 gt {/imax maxcolors def} {/imax 1024 def} ifelse
+5554 863 translate 196 3926 scale 0 setlinewidth
+/ystep 1 imax div def /y0 0 def /ii 0 def
+{ y0 g 0 y0 N 1 0 V 0 ystep V -1 0 f
+/y0 y0 ystep add def /ii ii 1 add def
+ii imax ge {exit} if } loop
+grestore 0 setgray
+1.000 UL
+LTb
+LCb setrgbcolor
+5554 863 N
+196 0 V
+0 3926 V
+-196 0 V
+0 -3926 V
+Z stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+5750 863 M
+-63 0 V
+stroke
+5811 863 M
+[ [(Helvetica) 250.0 0.0 true true 0 (-50)]
+] -83.3 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+5554 863 M
+63 0 V
+133 436 R
+-63 0 V
+stroke
+5811 1299 M
+[ [(Helvetica) 250.0 0.0 true true 0 ( 0)]
+] -83.3 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+5554 1299 M
+63 0 V
+133 436 R
+-63 0 V
+stroke
+5811 1735 M
+[ [(Helvetica) 250.0 0.0 true true 0 ( 50)]
+] -83.3 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+5554 1735 M
+63 0 V
+133 436 R
+-63 0 V
+stroke
+5811 2171 M
+[ [(Helvetica) 250.0 0.0 true true 0 ( 100)]
+] -83.3 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+5554 2171 M
+63 0 V
+133 436 R
+-63 0 V
+stroke
+5811 2607 M
+[ [(Helvetica) 250.0 0.0 true true 0 ( 150)]
+] -83.3 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+5554 2607 M
+63 0 V
+133 437 R
+-63 0 V
+stroke
+5811 3044 M
+[ [(Helvetica) 250.0 0.0 true true 0 ( 200)]
+] -83.3 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+5554 3044 M
+63 0 V
+133 436 R
+-63 0 V
+stroke
+5811 3480 M
+[ [(Helvetica) 250.0 0.0 true true 0 ( 250)]
+] -83.3 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+5554 3480 M
+63 0 V
+133 436 R
+-63 0 V
+stroke
+5811 3916 M
+[ [(Helvetica) 250.0 0.0 true true 0 ( 300)]
+] -83.3 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+5554 3916 M
+63 0 V
+133 436 R
+-63 0 V
+stroke
+5811 4352 M
+[ [(Helvetica) 250.0 0.0 true true 0 ( 350)]
+] -83.3 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+5554 4352 M
+63 0 V
+133 437 R
+-63 0 V
+stroke
+5811 4789 M
+[ [(Helvetica) 250.0 0.0 true true 0 ( 400)]
+] -83.3 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+5554 4789 M
+63 0 V
+stroke
+LCb setrgbcolor
+LCb setrgbcolor
+6575 2826 M
+currentpoint gsave translate -90 rotate 0 0 moveto
+[ [(Helvetica) 250.0 0.0 true true 0 (g\(x,y\))]
+] -83.3 MCshow
+grestore
+LTb
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+grestore % colour palette end
+stroke
+grestore
+end
+showpage
+%%Trailer
+%%DocumentFonts: Helvetica
+%%Pages: 1
