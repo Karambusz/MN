@@ -1,0 +1,48 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # ad. 1.2: SFERA + KULA # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+reset
+set terminal post enhanced colour solid font 18
+set output "sphere.eps"
+unset key
+set xlabel "x" 
+set ylabel "y"
+set zlabel "z"
+set xtics 0.5
+set ytics 0.5
+set ztics 0.5
+set view equal
+set ticslevel 0
+set border 895
+splot "3D.dat" i 0 u 1:2:3 pt 7 ps 0.5 lc rgb "red"
+
+set output "ball.eps"
+unset colorbox
+set palette defined (0 '#000000', 1 '#ff0000')
+splot "3D.dat" i 1 u 1:2:3:(sqrt($1**2 + $2**2 + $3**2)) pt 7 ps 0.5 lc palette
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # ad. 1.2.3: HISTOGRAMY # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+reset
+set terminal post enhanced colour solid font 25
+k_max = 10.
+set key outside top center horizontal
+x_min = 0.
+x_max = 1.
+dx = (x_max-x_min)/k_max
+set ylabel "n_j, g_j"
+set xlabel "r"
+a = (x_max-x_min)/k_max/2.
+set xtics out font ",20" offset 0, 0.5 x_min, dx, x_max
+do for [t=1:11] {
+  set arrow t from x_min+2*t*a, graph 0 to x_min+2*t*a, graph 1 nohead lt 0 lw 2 lc rgb "gray30"
+}
+do for [i=0:2]{
+  set output "hist".(i+1).".eps" 
+  plot [x_min:x_max][0:] "hist.dat" i i u 1:2 w boxes lc rgb "dark-spring-green" fs pattern 1 t "n_j", \
+    "" i i u 1:3 w boxes lc rgb "red" lw 5 fs fill empty t "g_j"
+}
